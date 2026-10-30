@@ -5,6 +5,9 @@ import unicodedata
 
 import pandas as pd
 
+MIN_DATE = pd.Timestamp("1900-01-01")
+DATE_FORMATS = ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d", "%d/%m/%Y")
+
 EMAIL_PATTERN = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 
@@ -92,3 +95,66 @@ def clean_zip(series):
         return zip_code, None
 
     return _apply(series, clean)
+
+
+def parse_dates(series, today=None, allow_future=False):
+    """Convertit en dates et explique chaque rejet (jamais de NaT silencieux).
+
+    Formats acceptés : AAAA-MM-JJ [HH:MM:SS] et JJ/MM/AAAA. Motifs : missing,
+    unparseable, out_of_range.
+    """
+    today = pd.Timestamp(today) if today is not None else pd.Timestamp.today().normalize()
+    text = series.astype("string").str.strip()
+    parsed = None
+    for date_format in DATE_FORMATS:
+        attempt = pd.to_datetime(text, format=date_format, errors="coerce")
+        parsed = attempt if parsed is None else parsed.fillna(attempt)
+
+    missing = (text.isna() | (text == "")).to_numpy(dtype=bool)
+    unparseable = (~missing) & parsed.isna().to_numpy(dtype=bool)
+    out_of_range = parsed.notna().to_numpy(dtype=bool) & (parsed < MIN_DATE).to_numpy(dtype=bool)
+    if not allow_future:
+        end_of_today = today.normalize() + pd.Timedelta(days=1)
+        out_of_range |= parsed.notna().to_numpy(dtype=bool) & (parsed >= end_of_today).to_numpy(
+            dtype=bool
+        )
+
+    reasons = pd.Series([None] * len(series), index=series.index, dtype="object")
+    reasons[missing] = "missing"
+    reasons[unparseable] = "unparseable"
+    reasons[out_of_range] = "out_of_range"
+    parsed = parsed.mask(pd.Series(out_of_range, index=series.index))
+    return parsed, reasons
+
+
+def parse_numbers(series, minimum=None, maximum=None):
+    """Convertit en nombres décimaux et explique chaque rejet."""
+    text = series.astype("string").str.strip().str.replace(",", ".", regex=False)
+    values = pd.to_numeric(text, errors="coerce").astype("float64")
+
+    missing = (text.isna() | (text == "")).to_numpy(dtype=bool)
+    not_a_number = (~missing) & values.isna().to_numpy(dtype=bool)
+    out_of_range = pd.Series(False, index=series.index).to_numpy(dtype=bool)
+    if minimum is not None:
+        out_of_range = out_of_range | (values < minimum).to_numpy(dtype=bool)
+    if maximum is not None:
+        out_of_range = out_of_range | (values > maximum).to_numpy(dtype=bool)
+
+    reasons = pd.Series([None] * len(series), index=series.index, dtype="object")
+    reasons[missing] = "missing"
+    reasons[not_a_number] = "not_a_number"
+    reasons[out_of_range] = "out_of_range"
+    return values.mask(pd.Series(out_of_range, index=series.index)), reasons
+
+
+def map_values(series, mapping):
+    """Traduit les valeurs d'une source vers la liste commune ; inconnu = « unknown » + motif."""
+    keys = series.astype("string").str.strip().str.upper()
+    mapped = keys.map(mapping).astype("object")
+    reasons = pd.Series([None] * len(series), index=series.index, dtype="object")
+    missing = keys.isna().to_numpy(dtype=bool)
+    unmapped = (~missing) & mapped.isna().to_numpy(dtype=bool)
+    reasons[missing] = "missing"
+    reasons[unmapped] = "unmapped_value"
+    return mapped.fillna("unknown"), reasons
+
