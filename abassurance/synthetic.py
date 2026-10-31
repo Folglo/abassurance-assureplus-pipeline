@@ -283,3 +283,243 @@ def _extras(rng, contract_number, start, end, annual, ab):
             )
         )
     return claims, payments
+
+
+def generate(seed=42, n_oracle=800, n_sqlserver=500, n_cross=60, n_internal=10):
+    """Construit les 8 tables sous forme de DataFrames (colonnes identiques aux annexes)."""
+    rng = random.Random(seed)
+    ab_clients, ap_users = [], []
+    ab_people, ap_people = [], []  # personne rattachée à chaque ligne, pour créer les contrats
+
+    for i in range(n_oracle):
+        person = _person(rng)
+        ab_clients.append(_ab_client(rng, 1000 + i, person))
+        ab_people.append(1000 + i)
+
+    # Doublons entre les deux bases : même personne, saisie différente côté SQL Server.
+    # Les 8 premiers ont une date de naissance au format JJ/MM/AAAA (le défaut silencieux).
+    for i in range(n_cross):
+        row = ab_clients[(i * 7) % n_oracle]
+        person = Person(
+            row["AB_PRENOM"],
+            row["AB_NOM"].title(),
+            date.fromisoformat(row["AB_DATE_NAISSANCE"]),
+            row["AB_EMAIL"].replace("#", "@"),
+            row["AB_TELEPHONE"].replace(" ", "") or "0612345678",
+            row["AB_ADRESSE"],
+            row["AB_CODE_POSTAL"].zfill(5),
+            row["AB_NUM_FISCAL"],
+        )
+        french = person.birth.strftime("%d/%m/%Y") if i < 8 else None
+        ap_users.append(
+            _ap_user(
+                rng, 5000 + len(ap_users), person, french, keep_email=i < 8 or rng.random() < 0.88
+            )
+        )
+        ap_people.append(5000 + len(ap_users) - 1)
+
+    for _ in range(n_sqlserver - n_cross):
+        ap_users.append(_ap_user(rng, 5000 + len(ap_users), _person(rng)))
+        ap_people.append(5000 + len(ap_users) - 1)
+
+    # Doublons internes : le même client saisi deux fois dans Oracle.
+    for i in range(n_internal):
+        original = ab_clients[(100 + i * 11) % n_oracle]
+        twin = dict(original, AB_CLIENT_ID=9000 + i, AB_NOM=original["AB_NOM"].lower().title())
+        twin["AB_TELEPHONE"] = "" if i % 2 else original["AB_TELEPHONE"]
+        ab_clients.append(twin)
+        ab_people.append(9000 + i)
+
+    # Doublons internes côté SQL Server : même personne, deux identifiants.
+    for i in range(4):
+        original = ap_users[(200 + i * 13) % n_sqlserver]
+        twin = dict(
+            original,
+            AP_USER_ID=7000 + i,
+            AP_PHONE_NUMBER="",
+            AP_FULL_NAME=original["AP_FULL_NAME"].upper(),
+        )
+        ap_users.append(twin)
+        ap_people.append(7000 + i)
+
+    # Pièges : familles qui partagent email et téléphone (ne sont PAS des doublons).
+    for i in range(6):
+        base = ab_clients[(300 + i * 13) % n_oracle]
+        ab_clients.append(
+            dict(
+                base,
+                AB_CLIENT_ID=9500 + i,
+                AB_PRENOM=rng.choice(["Paul", "Jade", "Noé"]),
+                AB_DATE_NAISSANCE=(date(2001, 1, 1) + timedelta(days=i * 97)).isoformat(),
+            )
+        )
+        ab_people.append(9500 + i)
+
+    # Défauts supplémentaires dans SQL Server : dates invalides et clés répétées.
+    bad_dates = ("1985-13-45", "00/00/0000", "31/02/1990", "", "demain", "1850-01-01")
+    for index, bad in enumerate(bad_dates, start=60):
+        ap_users[index % n_sqlserver]["AP_BIRTH_DATE"] = bad
+    ap_users.append(dict(ap_users[10]))
+    ap_users.append(dict(ap_users[11]))
+    ab_clients.append(dict(ab_clients[5]))
+    ab_clients.append(dict(ab_clients[6]))
+    ab_clients.append(dict(ab_clients[7]))
+
+    # Contrats, sinistres, paiements.
+    ab_contracts, ab_claims, ab_payments = [], [], []
+    ap_contracts, ap_claims, ap_payments = [], [], []
+    counter = {"claim": 1, "payment": 1, "number": 1}
+
+    for client_id in ab_people:
+        for _ in range(rng.choices([0, 1, 2, 3], [10, 50, 30, 10])[0]):
+            number = f"AB-POL-{counter['number']:06d}"
+            counter["number"] += 1
+            start, end = _contract_dates(rng)
+            kind = rng.choice(AB_TYPES)
+            annual = round(
+                rng.uniform(
+                    *{
+                        "SANTE": (600, 2400),
+                        "HABITATION": (200, 900),
+                        "AUTO": (400, 1500),
+                        "PROFESSIONNEL": (800, 5000),
+                    }[kind]
+                ),
+                2,
+            )
+            ab_contracts.append(
+                {
+                    "AB_POLICY_NUMBER": number,
+                    "AB_CLIENT_ID": client_id,
+                    "AB_TYPE_ASSURANCE": kind,
+                    "AB_DATE_DEBUT": start.isoformat(),
+                    "AB_DATE_FIN": end.isoformat(),
+                    "AB_PRIME_ANNUELLE": annual,
+                    "AB_STATUT_CONTRAT": _contract_status(rng, end, "ACTIF", "EXPIRE", "RESILIE"),
+                    "AB_AGENCE_ID": rng.randrange(1, 60),
+                }
+            )
+            claims, payments = _extras(rng, number, start, end, annual, ab=True)
+            for stamp, amount, text in claims:
+                ab_claims.append(
+                    {
+                        "AB_CLAIM_ID": counter["claim"],
+                        "AB_POLICY_NUMBER": number,
+                        "AB_DATE_SINISTRE": stamp.strftime("%Y-%m-%d %H:%M:%S"),
+                        "AB_MONTANT_ESTIME": amount,
+                        "AB_STATUT_SINISTRE": rng.choice(["OUVERT", "EN_COURS", "CLOS", "REFUSE"]),
+                        "AB_DESCRIPTION": text,
+                    }
+                )
+                counter["claim"] += 1
+            for stamp, amount in payments:
+                ab_payments.append(
+                    {
+                        "AB_PAYMENT_ID": counter["payment"],
+                        "AB_POLICY_NUMBER": number,
+                        "AB_DATE_PAIEMENT": stamp.date().isoformat(),
+                        "AB_MONTANT": amount,
+                        "AB_MODE_PAIEMENT": rng.choice(AB_METHODS),
+                    }
+                )
+                counter["payment"] += 1
+
+    for user_id in ap_people:
+        for _ in range(rng.choices([0, 1, 2], [15, 60, 25])[0]):
+            number = f"AP-C-{counter['number']:06d}"
+            counter["number"] += 1
+            start, end = _contract_dates(rng)
+            product = rng.choice(AP_PRODUCTS)
+            monthly = round(
+                rng.uniform(
+                    *{
+                        "AUTO_BASIC": (25, 70),
+                        "AUTO_PREMIUM": (60, 140),
+                        "ASSISTANCE_PREMIUM": (8, 30),
+                    }[product]
+                ),
+                2,
+            )
+            ap_contracts.append(
+                {
+                    "AP_CONTRACT_REF": number,
+                    "AP_USER_ID": user_id,
+                    "AP_PRODUCT_CODE": product,
+                    "AP_START_DATE": f"{start.isoformat()} 00:00:00",
+                    "AP_END_DATE": f"{end.isoformat()} 00:00:00",
+                    "AP_MONTHLY_PREMIUM": monthly,
+                    "AP_CONTRACT_STATE": _contract_status(
+                        rng, end, "ACTIVE", "EXPIRED", "CANCELLED"
+                    ),
+                    "AP_BROKER_CODE": f"BRK{rng.randrange(1, 40):03d}",
+                }
+            )
+            claims, payments = _extras(rng, number, start, end, monthly * 12, ab=False)
+            for stamp, amount, text in claims:
+                ap_claims.append(
+                    {
+                        "AP_SINISTRE_NUM": counter["claim"],
+                        "AP_CONTRACT_REF": number,
+                        "AP_INCIDENT_DATE": stamp.strftime("%Y-%m-%d %H:%M:%S"),
+                        "AP_ESTIMATED_AMOUNT": amount,
+                        "AP_CLAIM_STATUS": rng.choice(
+                            ["OPEN", "IN_PROGRESS", "CLOSED", "REJECTED"]
+                        ),
+                        "AP_CLAIM_COMMENT": text,
+                        "AP_FRAUD_SCORE": _fraud_score(rng),
+                    }
+                )
+                counter["claim"] += 1
+            for stamp, amount in payments:
+                ap_payments.append(
+                    {
+                        "AP_PAYMENT_REF": str(
+                            uuid.UUID(int=rng.getrandbits(128), version=4)
+                        ).upper(),
+                        "AP_CONTRACT_REF": number,
+                        "AP_PAYMENT_DATETIME": stamp.strftime("%Y-%m-%d %H:%M:%S"),
+                        "AP_AMOUNT_PAID": amount,
+                        "AP_PAYMENT_CHANNEL": rng.choice(AP_CHANNELS),
+                        "AP_TRANSACTION_STATUS": rng.choices(
+                            ["SUCCESS", "FAILED", "PENDING"], [92, 5, 3]
+                        )[0],
+                    }
+                )
+
+    # Lignes orphelines : contrat sans client, sinistre sans contrat.
+    ab_contracts.append(
+        dict(ab_contracts[0], AB_POLICY_NUMBER="AB-POL-ORPHAN", AB_CLIENT_ID=999999)
+    )
+    ab_contracts.append(
+        dict(ab_contracts[1], AB_POLICY_NUMBER="AB-POL-ORPHAN2", AB_CLIENT_ID=999998)
+    )
+    ap_claims.append(dict(ap_claims[0], AP_SINISTRE_NUM=99999, AP_CONTRACT_REF="AP-C-UNKNOWN"))
+    ab_payments.append(dict(ab_payments[0], AB_PAYMENT_ID=99999, AB_POLICY_NUMBER="AB-POL-UNKNOWN"))
+
+    rng.shuffle(ap_users)  # l'ordre des lignes ne doit rien révéler
+    return {
+        "ab_client": pd.DataFrame(ab_clients),
+        "ab_contrat": pd.DataFrame(ab_contracts),
+        "ab_sinistre": pd.DataFrame(ab_claims),
+        "ab_paiement": pd.DataFrame(ab_payments),
+        "ap_users": pd.DataFrame(ap_users),
+        "ap_contracts": pd.DataFrame(ap_contracts),
+        "ap_claims": pd.DataFrame(ap_claims),
+        "ap_payments": pd.DataFrame(ap_payments),
+    }
+
+
+def write_csv(output_dir=DATA_DIR, **options):
+    """Écrit les 8 fichiers CSV (UTF-8) dans le dossier demandé."""
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    tables = generate(**options)
+    for name, frame in tables.items():
+        frame.to_csv(output_dir / f"{name}.csv", index=False, encoding="utf-8")
+    return {name: len(frame) for name, frame in tables.items()}
+
+
+if __name__ == "__main__":
+    for table_name, count in write_csv().items():
+        print(f"{table_name}: {count} lignes")
+
