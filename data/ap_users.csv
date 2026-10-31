@@ -1,0 +1,507 @@
+AP_USER_ID,AP_FULL_NAME,AP_BIRTH_DATE,AP_MAIL_ADDRESS,AP_PHONE_NUMBER,AP_STREET_ADDRESS,AP_ZIP_CODE,AP_CREATED_AT,AP_CUSTOMER_STATUS,AP_LOYALTY_SCORE
+5389,TRAORÉ Julie,1958-11-28,julie.traore23@courriel.org,07.12.32.80.62,"31 rue Gauthier, Rennes",35000,2013-12-01 12:49:00,ACTIVE,29
+5015,Lucas GIRARD,2002-06-22,lucas.girard42@webmail.fr,07.44.32.83.09,"85 rue Morel, Nice",06000,2022-07-21 11:59:00,ACTIVE,3
+5049,"LOPEZ, Anaïs",1988-05-26,anais.lopez63@courriel.org,07.30.44.83.60,"34 rue Gauthier, Marseille",13006,2022-12-25 15:22:00,ACTIVE,97
+5336,Thomas FOURNIER,1979-08-30,thomas.fournier12@webmail.fr,+33 6 68 62 88 68,"79 rue Simon, Rennes",35000,2024-08-04 16:14:00,ACTIVE,30
+5396,Léa ROUSSEAU,1994-03-30,lea.rousseau10@webmail.fr,07.20.89.52.17,"71 rue Martin, Bourg-en-Bresse",01000,2018-08-16 11:03:00,ACTIVE,88
+5207,Hélène NICOLAS,1945-08-25,helene.nicolas26@webmail.fr,+33 7 54 65 65 31,"8 rue Rousseau, Nice",06000,2022-05-06 11:46:00,ACTIVE,23
+5347,LEFEBVRE Alexandre,1958-05-07,alexandre.lefebvre8@exemple.com,07.92.84.89.87,"47 rue Lopez, Dijon",21000,2024-11-26 16:25:00,ACTIVE,25
+5213,BLANC Alexandre,1964-11-18,alexandre.blanc28@courriel.org,+33 6 52 86 60 13,"41 rue Chevalier, Rennes",35000,2024-02-26 09:58:00,ACTIVE,7
+5363,Julie PETIT,1957-07-15,JULIE.PETIT49@EXEMPLE.COM,06.95.53.30.89,"25 rue Dumont, Paris",75011,2021-06-23 08:24:00,ACTIVE,91
+5472,Maxime PETIT,1964-02-16,MAXIME.PETIT61@MAIL.FR,06.34.63.10.78,"82 rue Garnier, Lyon",69003,2026-04-29 12:31:00,ACTIVE,63
+5444,"MASSON, Laura",1984-09-06,laura.masson22@courriel.org,+33 7 58 19 87 08,"1 rue Faure, Dijon",21000,2022-03-03 08:22:00,ACTIVE,24
+5470,Anaïs FONTAINE,1984-04-08,anais.fontaine71@courriel.org,06.41.16.43.42,"85 rue Lopez, Paris",75011,2018-08-04 10:47:00,ACTIVE,10
+5485,Maxime LAURENT,1973-03-23,maxime.laurent34@exemple.com,+33 6 51 55 67 40,"7 rue Durand, Paris",75011,2026-02-17 15:01:00,ACTIVE,32
+5116,Nicolas ROUX,1967-01-27,nicolas.roux3@courriel.org,07.16.21.85.63,"17 rue Martin, Bordeaux",33000,2022-05-01 09:19:00,ACTIVE,27
+5014,Hélène MICHEL,1981-09-20,helene.michel90@webmail.fr,07.44.31.06.98,"20 rue Thomas, Toulouse",31000,2016-03-21 13:41:00,TERMINATED,11
+5017,Julien LEROY,1997-05-24,julien.leroy33@courriel.org,06.57.20.25.90,"63 rue Traoré, Marseille",13006,2017-02-23 08:26:00,ACTIVE,31
+5184,"LOPEZ, Céline",1996-11-21,celine.lopez49@mail.fr,07.45.23.19.19,"66 rue Moreau, Lyon",69003,2013-07-20 15:05:00,ACTIVE,83
+5386,FONTAINE Nicolas,2003-09-27,nicolas.fontaine78@webmail.fr,06.18.51.11.56,"115 rue David, Bordeaux",33000,2025-08-24 16:12:00,ACTIVE,26
+5070,Julie MOREAU,1976-05-15,julie.moreau12@webmail.fr,07.52.05.80.28,"3 rue Diallo, Rennes",35000,2019-08-26 08:45:00,ACTIVE,32
+5167,Manon MOREL,1984-08-06,MANON.MOREL95@COURRIEL.ORG,06.11.10.85.18,"53 rue Gauthier, Marseille",13006,2016-06-14 18:17:00,ACTIVE,68
+5493,Laura ROUX,1975-03-15,laura.roux94@mail.fr,07.76.63.35.42,"91 rue Girard, Nantes",44000,2013-05-08 16:37:00,TERMINATED,20
+5344,DAVID Laura,1945-12-23,laura.david47@webmail.fr,06.12.13.40.63,"69 rue Bernard, Marseille",13006,2022-08-24 09:46:00,ACTIVE,6
+5435,Celine PERRIN,1954-04-27,celine.perrin48@courriel.org,+33 6 59 64 72 68,"109 rue Chevalier, Lille",59000,2013-02-07 16:34:00,ACTIVE,69
+5004,Thomas MARTINEZ,13/11/1971,THOMAS.MARTINEZ4@WEBMAIL.FR,+33 6 50 45 56 23,"73 rue Gauthier, Marseille",13006,2012-10-27 08:19:00,ACTIVE,7
+5499,Laura LOPEZ,1988-09-23,laura.lopez76@webmail.fr,06.88.94.91.28,"57 rue Simon, Lille",59000,2025-11-30 14:20:00,ACTIVE,95
+5192,Nicolas MOREAU,1958-06-11,nicolas.moreau29@exemple.com,+33 7 97 42 17 36,"69 rue Mercier, Lille",59000,2016-03-28 14:51:00,ACTIVE,33
+5329,Benoît DIALLO,1997-10-10,benoit.diallo12@webmail.fr,+33 7 22 00 72 27,"92 rue Rousseau, Bordeaux",33000,2012-11-19 08:02:00,ACTIVE,7
+5006,"GIRARD, Emma",13/04/1997,emma.girard85@webmail.fr,06.54.62.91.48,"83 rue Traoré, Lyon",69003,2025-05-28 17:35:00,ACTIVE,15
+5308,Aïcha MARTINEZ,1954-06-18,AICHA.MARTINEZ17@WEBMAIL.FR,07.34.14.85.02,"86 rue Mercier, Toulouse",31000,2014-09-20 16:37:00,INACTIVE,35
+5220,Maxime FAURE,1992-01-19,MAXIME.FAURE81@EXEMPLE.COM,+33 7 17 46 85 90,"101 rue Gauthier, Marseille",13006,2020-12-20 16:38:00,SUSPENDED,100
+5437,Hélène DAVID,1965-12-28,helene.david39@exemple.com,07.74.96.33.79,"20 rue Traoré, Toulouse",31000,2013-02-15 13:10:00,ACTIVE,37
+5235,Léa DUBOIS,2005-08-11,lea.dubois51@exemple.com,06.02.37.26.43,"8 rue Mercier, Rennes",35000,2022-12-19 15:00:00,ACTIVE,87
+5221,Kévin GARNIER,1949-02-15,kevin.garnier16@mail.fr,07.56.27.74.02,"115 rue Mercier, Bourg-en-Bresse",01000,2023-09-20 17:19:00,ACTIVE,8
+5201,Romain CLÉMENT,1975-12-25,ROMAIN.CLEMENT22@MAIL.FR,+33 7 73 30 90 74,"94 rue Dupont, Nice",06000,2026-03-12 17:37:00,TERMINATED,7
+5176,Antoine MULLER,1985-03-17,antoine.muller3@webmail.fr,07.24.02.55.54,"67 rue Nicolas, Nantes",44000,2020-12-18 18:29:00,ACTIVE,50
+5185,DUMONT Chloé,1995-07-12,chloe.dumont12@exemple.com,+33 6 87 40 50 13,"101 rue Simon, Strasbourg",67000,2019-10-11 10:22:00,ACTIVE,83
+5100,Antoine VINCENT,1959-09-17,antoine.vincent30@courriel.org,+33 6 30 23 99 34,"49 rue Bernard, Toulouse",31000,2018-11-07 09:08:00,ACTIVE,31
+5332,"LAMBERT, Benoît",1969-05-29,benoit.lambert67@mail.fr,+33 7 21 09 22 25,"94 rue Bertrand, Dijon",21000,2013-04-15 10:39:00,INACTIVE,5
+5297,Sophie ROBIN,2002-05-03,sophie.robin8@exemple.com,+33 7 38 17 79 98,"34 rue Lambert, Toulouse",31000,2017-12-05 13:44:00,ACTIVE,47
+7001,BLANC ALEXANDRE,1964-11-18,alexandre.blanc28@courriel.org,,"41 rue Chevalier, Rennes",35000,2024-02-26 09:58:00,ACTIVE,7
+5190,Julie BERTRAND,1991-01-22,julie.bertrand39@exemple.com,06.81.14.41.57,"70 rue Durand, Nantes",44000,2015-09-25 14:47:00,ACTIVE,100
+5343,Sophie GARCIA,1990-03-27,sophie.garcia33@webmail.fr,07.79.70.08.30,"51 rue Roux, Lille",59000,2015-01-31 16:11:00,ACTIVE,15
+5365,"PERRIN, Olivier",1985-09-23,olivier.perrin60@mail.fr,06.25.82.84.88,"76 rue Clément, Toulouse",31000,2021-09-13 12:49:00,ACTIVE,30
+5061,Olivier HENRY,00/00/0000,olivier.henry41@webmail.fr,06.18.15.83.74,"55 rue Robert, Rennes",35000,2020-08-06 16:56:00,ACTIVE,78
+5026,Lucas DURAND,1957-09-03,lucas.durand97@exemple.com,+33 7 25 82 73 90,"13 rue Traoré, Nice",06000,2013-06-19 18:52:00,ACTIVE,96
+5269,Claire DUMONT,2004-10-26,claire.dumont22@courriel.org,06.58.77.77.01,"86 rue Roussel, Bordeaux",33000,2025-05-03 13:24:00,ACTIVE,72
+5430,Alexandre GUÉRIN,1979-01-26,alexandre.guerin63@exemple.com,06.50.78.10.72,"84 rue Nicolas, Lille",59000,2020-11-08 10:55:00,TERMINATED,56
+5295,Nicolas DIALLO,1947-10-23,nicolas.diallo95@mail.fr,+33 6 72 04 09 47,"16 rue Traoré, Lyon",69003,2018-02-17 10:27:00,ACTIVE,37
+5428,Emma CHEVALIER,1950-09-27,EMMA.CHEVALIER24@WEBMAIL.FR,06.43.35.36.75,"88 rue Garnier, Nantes",44000,2017-10-04 08:30:00,SUSPENDED,9
+5478,"PETIT, Alexandre",2004-03-09,ALEXANDRE.PETIT82@COURRIEL.ORG,06.33.01.07.53,"98 rue Gauthier, Lyon",69003,2017-08-04 16:48:00,ACTIVE,90
+5112,Inès FOURNIER,1985-07-08,ines.fournier65@mail.fr,+33 7 35 54 04 23,"52 rue Perrin, Marseille",13006,2019-03-02 11:47:00,ACTIVE,75
+5132,MICHEL François,1979-08-16,FRANCOIS.MICHEL92@COURRIEL.ORG,06.97.73.17.39,"98 rue François, Dijon",21000,2014-01-27 12:44:00,ACTIVE,30
+5210,Alexandre LEROY,1996-05-15,alexandre.leroy4@courriel.org,+33 7 66 51 83 78,"95 rue Martinez, Strasbourg",67000,2012-11-28 14:10:00,ACTIVE,7
+5103,Lucas BERTRAND,1972-10-14,lucas.bertrand73@courriel.org,+33 7 62 91 79 64,"15 rue François, Marseille",13006,2013-10-11 10:01:00,ACTIVE,20
+5012,Céline HENRY,1999-10-03,celine.henry84@mail.fr,06.75.32.69.73,"115 rue Petit, Paris",75011,2019-07-29 17:02:00,ACTIVE,54
+5291,Julie DAVID,1977-11-14,julie.david43@courriel.org,+33 7 94 20 72 23,"55 rue Robin, Nantes",44000,2021-10-27 13:55:00,ACTIVE,64
+5359,Fatima MOREL,1963-10-03,fatima.morel80@exemple.com,+33 7 74 99 90 20,"86 rue Blanc, Marseille",13006,2019-03-07 11:53:00,ACTIVE,43
+5033,Kévin DUPONT,1980-06-22,kevin.dupont44@mail.fr,06.74.12.09.48,"83 rue Muller, Toulouse",31000,2021-06-18 12:20:00,ACTIVE,76
+5498,Yann FONTAINE,1966-08-26,YANN.FONTAINE40@WEBMAIL.FR,+33 7 03 02 77 21,"74 rue Michel, Lille",59000,2023-06-18 11:44:00,ACTIVE,50
+5245,SIMON Élodie,2003-03-23,elodie.simon5@exemple.com,06.99.96.63.30,"117 rue David, Toulouse",31000,2016-09-03 10:01:00,ACTIVE,80
+5063,GUERIN Camille,,camille.guerin5@courriel.org,07.74.73.38.91,"59 rue Fontaine, Bordeaux",33000,2015-09-25 11:50:00,ACTIVE,82
+5011,Hugo MARTINEZ,1983-07-16,hugo.martinez50@courriel.org,+33 6 33 41 91 82,"42 rue Lefebvre, Rennes",35000,2020-09-26 11:49:00,ACTIVE,31
+5431,"LAMBERT, Hélène",1971-09-30,helene.lambert33@webmail.fr,06.90.95.19.56,"28 rue Bernard, Dijon",21000,2026-07-14 08:55:00,ACTIVE,64
+5107,Helene GUERIN,1978-05-16,HELENE.GUERIN42@EXEMPLE.COM,06.16.39.71.49,"3 rue Traoré, Bourg-en-Bresse",01000,2024-03-26 11:44:00,ACTIVE,38
+5121,Thomas MERCIER,1994-02-13,thomas.mercier62@courriel.org,+33 6 01 24 02 54,"42 rue Bernard, Nice",06000,2018-12-13 14:06:00,ACTIVE,1
+5037,NICOLAS Inès,1958-09-16,INES.NICOLAS71@WEBMAIL.FR,+33 6 46 74 74 68,"10 rue Girard, Strasbourg",67000,2021-09-19 17:03:00,ACTIVE,33
+5271,Claire MARTINEZ,1966-06-03,CLAIRE.MARTINEZ48@WEBMAIL.FR,+33 7 84 38 35 69,"97 rue Durand, Rennes",35000,2021-06-04 17:36:00,ACTIVE,47
+5248,Amélie DUBOIS,1949-10-24,amelie.dubois66@webmail.fr,+33 6 96 95 44 87,"14 rue Gauthier, Toulouse",31000,2019-06-16 08:28:00,TERMINATED,52
+5349,Thomas BONNET,1962-06-12,thomas.bonnet32@courriel.org,+33 7 01 42 15 63,"113 rue Dumont, Bordeaux",33000,2014-08-18 18:19:00,ACTIVE,37
+5346,"MARTINEZ, Aïcha",1951-05-23,aicha.martinez75@exemple.com,+33 7 24 96 01 70,"102 rue Petit, Bordeaux",33000,2023-04-28 10:28:00,ACTIVE,17
+5158,Antoine DURAND,1961-05-11,antoine.durand94@webmail.fr,+33 6 83 33 91 92,"101 rue Mathieu, Bordeaux",33000,2017-03-25 18:29:00,ACTIVE,35
+5129,Anaïs DAVID,1948-04-01,anais.david11@courriel.org,06.89.65.46.12,"29 rue Lambert, Lyon",69003,2023-08-21 17:17:00,ACTIVE,66
+5496,Inès TOURÉ,1996-12-28,ines.toure3@courriel.org,+33 6 37 43 26 92,"80 rue Vincent, Dijon",21000,2014-05-26 16:09:00,ACTIVE,76
+5283,Amelie ROBIN,1989-04-10,amelie.robin82@mail.fr,07.67.40.87.72,"6 rue Martinez, Strasbourg",67000,2015-01-31 13:17:00,ACTIVE,44
+5175,Mohamed RICHARD,1945-08-26,mohamed.richard53@courriel.org,+33 6 83 34 55 73,"115 rue François, Dijon",21000,2022-05-15 11:47:00,ACTIVE,16
+5303,Fatima THOMAS,2000-02-17,fatima.thomas29@courriel.org,06.47.07.92.62,"86 rue Traoré, Rennes",35000,2017-10-19 12:09:00,ACTIVE,73
+5189,Anaïs HENRY,1962-04-10,ANAIS.HENRY19@COURRIEL.ORG,+33 6 80 04 36 47,"67 rue Fournier, Bourg-en-Bresse",01000,2015-10-13 17:28:00,ACTIVE,4
+5024,Aïcha HENRY,1953-05-03,aicha.henry90@courriel.org,+33 7 17 47 73 32,"117 rue Mercier, Marseille",13006,2024-12-17 17:11:00,ACTIVE,22
+5454,Anaïs MOREL,1959-10-14,anais.morel40@courriel.org,06.76.07.41.46,"109 rue Robin, Dijon",21000,2015-06-02 09:13:00,ACTIVE,15
+5115,Antoine MERCIER,1952-11-10,antoine.mercier17@exemple.com,+33 7 38 07 81 91,"106 rue Fontaine, Nantes",44000,2020-10-18 14:51:00,ACTIVE,65
+5232,Thomas RICHARD,1981-11-08,thomas.richard94@mail.fr,+33 7 95 58 59 42,"80 rue David, Dijon",21000,2024-09-26 11:23:00,ACTIVE,54
+5127,Amelie CLEMENT,1972-10-14,amelie.clement40@webmail.fr,+33 7 08 56 09 40,"59 rue Petit, Paris",75011,2022-08-05 17:17:00,ACTIVE,58
+5276,Kévin PERRIN,2002-07-21,kevin.perrin15@courriel.org,06.29.35.75.38,"102 rue Rousseau, Rennes",35000,2015-08-14 14:11:00,ACTIVE,42
+5342,Fatima MARTINEZ,1946-05-31,fatima.martinez22@mail.fr,+33 6 09 94 17 53,"37 rue Gauthier, Toulouse",31000,2024-04-14 12:26:00,SUSPENDED,57
+5427,Amélie GIRARD,1967-09-25,amelie.girard75@courriel.org,+33 6 96 71 08 00,"81 rue André, Lyon",69003,2019-09-29 09:29:00,ACTIVE,59
+5353,Lucas BLANC,1998-08-17,LUCAS.BLANC90@COURRIEL.ORG,06.65.06.14.71,"75 rue Martin, Lille",59000,2025-12-05 16:26:00,ACTIVE,65
+5299,Nicolas BERNARD,1946-01-15,NICOLAS.BERNARD63@EXEMPLE.COM,06.36.93.00.52,"10 rue Gauthier, Bordeaux",33000,2025-12-06 17:45:00,ACTIVE,34
+5155,Julien ROBERT,1982-07-06,julien.robert40@exemple.com,+33 7 59 47 61 21,"119 rue Clément, Toulouse",31000,2026-03-07 08:23:00,ACTIVE,36
+5180,Manon DUMONT,1979-09-12,MANON.DUMONT18@EXEMPLE.COM,+33 6 71 48 54 18,"80 rue André, Bourg-en-Bresse",01000,2018-09-18 13:31:00,ACTIVE,37
+5110,Camille LOPEZ,2001-06-24,camille.lopez8@exemple.com,06.52.73.11.72,"51 rue Fournier, Nice",06000,2018-02-13 15:51:00,ACTIVE,20
+5463,Lea CHEVALIER,1983-06-12,lea.chevalier28@mail.fr,+33 7 69 83 75 55,"36 rue Girard, Nice",06000,2013-09-29 11:49:00,ACTIVE,75
+5182,"DUBOIS, Laura",2004-03-20,laura.dubois22@webmail.fr,07.79.59.90.04,"78 rue Bertrand, Nantes",44000,2017-11-16 16:45:00,ACTIVE,8
+5309,LAURENT François,1998-06-28,francois.laurent83@webmail.fr,+33 7 96 02 33 15,"45 rue Durand, Toulouse",31000,2013-07-03 15:21:00,ACTIVE,93
+5326,Manon GAUTHIER,1966-09-02,MANON.GAUTHIER17@WEBMAIL.FR,+33 7 73 76 55 47,"9 rue Martinez, Nantes",44000,2017-07-16 17:13:00,ACTIVE,73
+5067,Alexandre GARCIA,1962-01-11,alexandre.garcia8@webmail.fr,+33 7 40 77 81 10,"47 rue Perrin, Paris",75011,2025-10-07 17:17:00,ACTIVE,7
+5412,Laura DUPONT,1977-01-07,LAURA.DUPONT43@COURRIEL.ORG,07.26.15.10.70,"86 rue Mercier, Nice",06000,2025-01-24 16:37:00,ACTIVE,22
+5310,Sarah DURAND,1947-02-27,sarah.durand7@courriel.org,07.88.67.58.75,"88 rue Guérin, Toulouse",31000,2014-11-14 15:11:00,ACTIVE,43
+5022,THOMAS Antoine,1963-01-03,antoine.thomas90@mail.fr,+33 7 07 01 64 51,"38 rue Mathieu, Nice",06000,2019-03-05 12:53:00,ACTIVE,38
+5178,Kévin BERNARD,1994-10-22,KEVIN.BERNARD77@MAIL.FR,07.30.12.03.39,"89 rue Durand, Bourg-en-Bresse",01000,2012-11-08 16:43:00,ACTIVE,14
+5181,Alexandre MOREAU,1963-05-08,alexandre.moreau6@exemple.com,+33 6 76 94 73 08,"39 rue Thomas, Paris",75011,2017-08-14 09:11:00,ACTIVE,11
+5119,Anaïs NICOLAS,1991-09-10,ANAIS.NICOLAS98@WEBMAIL.FR,07.14.54.98.36,"115 rue Richard, Lille",59000,2013-11-19 14:19:00,ACTIVE,5
+5125,Laura MOREAU,1993-02-24,laura.moreau70@courriel.org,+33 7 31 37 37 14,"6 rue Garcia, Nice",06000,2022-03-09 09:55:00,ACTIVE,95
+5146,Antoine LEROY,1994-08-02,antoine.leroy7@courriel.org,07.88.37.74.35,"95 rue Thomas, Bourg-en-Bresse",01000,2016-01-27 15:28:00,ACTIVE,70
+5381,Manon LAMBERT,1965-10-24,manon.lambert74@courriel.org,+33 6 89 41 31 98,"74 rue Dupont, Rennes",35000,2013-12-10 17:41:00,ACTIVE,96
+7003,JULIE DAVID,1998-11-27,julie.david49@mail.fr,,"103 rue Roux, Bordeaux",33000,2021-09-07 11:12:00,INACTIVE,50
+5141,Antoine MERCIER,1971-03-03,antoine.mercier94@exemple.com,+33 6 33 00 80 56,"5 rue Chevalier, Strasbourg",67000,2015-11-08 18:28:00,ACTIVE,54
+5084,Manon MICHEL,2003-10-13,manon.michel82@webmail.fr,07.70.40.71.46,"82 rue Lopez, Dijon",21000,2020-05-12 14:02:00,ACTIVE,3
+5262,Mohamed VINCENT,1952-10-21,mohamed.vincent23@webmail.fr,+33 7 66 56 02 33,"12 rue Bonnet, Toulouse",31000,2026-02-09 15:47:00,ACTIVE,58
+5477,Maxime MOREAU,1949-07-10,maxime.moreau85@webmail.fr,07.92.53.09.55,"64 rue Nicolas, Nantes",44000,2013-08-08 10:37:00,ACTIVE,30
+5065,Claire MULLER,1850-01-01,claire.muller44@courriel.org,06.98.41.28.65,"104 rue Blanc, Rennes",35000,2012-12-02 08:12:00,TERMINATED,8
+5377,Anaïs CHEVALIER,1991-04-04,ANAIS.CHEVALIER25@COURRIEL.ORG,06.39.59.36.01,"12 rue Moreau, Lille",59000,2012-08-26 11:59:00,ACTIVE,27
+5451,Chloé ROBERT,1946-04-01,chloe.robert76@courriel.org,+33 6 66 88 13 03,"49 rue Nicolas, Lille",59000,2019-10-31 11:26:00,ACTIVE,56
+5102,Fatima MULLER,2002-03-13,fatima.muller58@exemple.com,+33 7 02 03 92 21,"114 rue Robert, Strasbourg",67000,2023-08-25 15:12:00,INACTIVE,89
+5162,Elodie MORIN,1957-12-13,elodie.morin60@courriel.org,06.12.42.85.35,"11 rue Lambert, Lyon",69003,2020-12-23 15:55:00,INACTIVE,46
+5407,Sarah BERTRAND,1988-07-20,sarah.bertrand74@courriel.org,06.51.97.36.65,"58 rue Fontaine, Rennes",35000,2023-02-11 15:07:00,ACTIVE,24
+5246,François MICHEL,1995-02-06,francois.michel42@webmail.fr,06.04.23.18.20,"67 rue Leroy, Lyon",69003,2025-06-16 15:56:00,ACTIVE,67
+5294,Aïcha MARTIN,1949-11-23,aicha.martin95@courriel.org,07.15.37.84.20,"46 rue Gauthier, Marseille",13006,2025-03-08 10:41:00,ACTIVE,93
+5424,Mathieu ROUSSEL,1992-12-05,MATHIEU.ROUSSEL63@COURRIEL.ORG,07.20.47.59.83,"85 rue Rousseau, Bordeaux",33000,2019-02-11 12:26:00,ACTIVE,53
+5007,"ROBERT, Nicolas",18/11/2002,NICOLAS.ROBERT47@WEBMAIL.FR,+33 7 69 09 27 55,"98 rue Robert, Toulouse",31000,2026-03-06 10:09:00,SUSPENDED,99
+5064,"ANDRÉ, Mathieu",demain,mathieu.andre96@exemple.com,07.64.77.41.31,"118 rue Mercier, Lyon",69003,2024-01-25 13:40:00,ACTIVE,15
+5151,Amélie PERRIN,2003-08-18,amelie.perrin39@webmail.fr,07.57.44.41.07,"75 rue Simon, Dijon",21000,2023-07-24 11:58:00,ACTIVE,42
+5469,Anais RICHARD,1947-08-06,ANAIS.RICHARD50@EXEMPLE.COM,06.30.11.27.38,"110 rue Richard, Lille",59000,2026-07-30 13:18:00,INACTIVE,99
+5438,Jean MOREL,1945-05-08,jean.morel33@mail.fr,07.26.09.79.62,"35 rue André, Bourg-en-Bresse",01000,2017-03-14 14:27:00,ACTIVE,78
+5075,Yann GIRARD,1952-02-14,yann.girard30@webmail.fr,+33 7 31 75 55 92,"36 rue Guérin, Marseille",13006,2018-01-06 17:26:00,ACTIVE,40
+5160,Marie MATHIEU,1968-10-19,marie.mathieu57@webmail.fr,+33 6 45 25 73 78,"89 rue Bertrand, Bordeaux",33000,2015-03-11 17:32:00,ACTIVE,58
+5383,Marie MATHIEU,1995-08-13,MARIE.MATHIEU79@MAIL.FR,07.83.87.44.30,"66 rue Lefebvre, Toulouse",31000,2024-07-17 09:35:00,ACTIVE,28
+5345,ROUX Anaïs,1976-07-19,ANAIS.ROUX57@WEBMAIL.FR,07.88.63.12.40,"95 rue Clément, Strasbourg",67000,2019-07-09 14:31:00,ACTIVE,51
+5355,LOPEZ Manon,1982-12-18,manon.lopez9@webmail.fr,07.95.28.59.94,"42 rue Clément, Strasbourg",67000,2016-09-07 14:28:00,ACTIVE,60
+5135,TOURÉ Camille,1983-01-19,camille.toure10@mail.fr,07.19.73.84.49,"18 rue Richard, Nantes",44000,2024-07-29 14:30:00,ACTIVE,86
+5468,Antoine VINCENT,1989-12-04,antoine.vincent40@webmail.fr,+33 7 46 73 13 71,"115 rue Lopez, Dijon",21000,2014-09-28 18:50:00,ACTIVE,63
+5090,Julien DUPONT,1957-01-27,julien.dupont22@mail.fr,06.14.83.33.54,"116 rue Petit, Bourg-en-Bresse",01000,2012-03-27 14:42:00,ACTIVE,55
+5239,Julie DAVID,1998-11-27,julie.david49@mail.fr,07.80.40.73.73,"103 rue Roux, Bordeaux",33000,2021-09-07 11:12:00,INACTIVE,50
+5045,"MARTIN, Amélie",1967-03-17,amelie.martin61@exemple.com,+33 6 00 94 38 82,"100 rue Petit, Lille",59000,2015-11-13 14:55:00,INACTIVE,65
+5050,François MORIN,1962-04-14,francois.morin36@exemple.com,+33 7 69 45 96 48,"10 rue Roussel, Paris",75011,2016-05-10 14:13:00,ACTIVE,87
+5252,Chloé MICHEL,2004-01-14,CHLOE.MICHEL62@MAIL.FR,+33 7 68 08 95 04,"4 rue Rousseau, Nantes",44000,2020-10-07 16:24:00,INACTIVE,99
+5260,MASSON Sophie,1956-07-24,sophie.masson27@webmail.fr,+33 6 81 06 08 91,"6 rue Dubois, Nice",06000,2016-01-16 13:39:00,ACTIVE,12
+5148,Alexandre CHEVALIER,1995-07-23,alexandre.chevalier53@webmail.fr,07.57.79.91.13,"76 rue Diallo, Nantes",44000,2019-12-31 16:36:00,ACTIVE,4
+5092,Anais BERTRAND,1983-07-11,anais.bertrand60@mail.fr,07.19.91.60.53,"50 rue Traoré, Rennes",35000,2024-07-12 17:06:00,ACTIVE,69
+5091,Thomas GUÉRIN,1986-09-21,thomas.guerin49@exemple.com,06.95.07.67.16,"13 rue Faure, Toulouse",31000,2015-08-18 14:54:00,ACTIVE,42
+5149,Thomas ANDRÉ,1960-01-24,thomas.andre24@exemple.com,06.33.68.96.00,"35 rue Legrand, Bourg-en-Bresse",01000,2024-10-31 17:48:00,ACTIVE,73
+5284,Maxime ROBERT,2004-10-15,MAXIME.ROBERT69@EXEMPLE.COM,+33 6 92 76 39 85,"29 rue Muller, Bordeaux",33000,2016-01-19 18:56:00,ACTIVE,58
+5287,Kévin MICHEL,1976-10-17,kevin.michel15@webmail.fr,06.09.67.45.13,"30 rue Lambert, Bourg-en-Bresse",01000,2022-06-15 08:45:00,ACTIVE,86
+5128,BERNARD Sarah,1964-04-09,sarah.bernard58@exemple.com,+33 7 49 99 87 09,"32 rue Nicolas, Toulouse",31000,2013-06-19 18:35:00,ACTIVE,62
+5177,Hélène DUPONT,1945-11-29,helene.dupont39@mail.fr,07.84.67.33.22,"89 rue Simon, Rennes",35000,2018-04-04 10:26:00,ACTIVE,62
+5212,Jean FOURNIER,1950-04-05,jean.fournier28@mail.fr,07.64.74.76.91,"55 rue Richard, Rennes",35000,2012-12-29 08:50:00,INACTIVE,15
+5404,Amélie PETIT,1973-09-25,amelie.petit65@courriel.org,+33 7 23 63 41 10,"69 rue Girard, Bordeaux",33000,2023-01-01 16:39:00,ACTIVE,68
+5390,François LAMBERT,1947-07-07,FRANCOIS.LAMBERT26@MAIL.FR,06.82.67.35.49,"40 rue Martinez, Toulouse",31000,2015-11-15 16:26:00,SUSPENDED,40
+5199,Marie MARTINEZ,1967-01-25,marie.martinez63@webmail.fr,06.88.66.93.20,"103 rue Traoré, Paris",75011,2019-10-18 08:54:00,ACTIVE,36
+5410,Hélène BONNET,1970-05-15,HELENE.BONNET50@MAIL.FR,07.82.03.69.06,"41 rue Lopez, Paris",75011,2021-09-08 14:28:00,ACTIVE,41
+5247,Emma ROUX,1974-07-25,emma.roux82@exemple.com,07.38.15.18.27,"111 rue Gauthier, Dijon",21000,2023-10-18 18:46:00,ACTIVE,43
+5215,Laura LOPEZ,1946-07-20,laura.lopez63@mail.fr,06.96.12.93.32,"98 rue Lefebvre, Nantes",44000,2020-08-22 10:45:00,ACTIVE,69
+5028,Sophie VINCENT,1992-07-07,sophie.vincent82@courriel.org,+33 6 83 21 92 85,"106 rue Gauthier, Nice",06000,2021-03-13 11:12:00,INACTIVE,86
+5490,Laura CHEVALIER,1989-05-08,LAURA.CHEVALIER72@WEBMAIL.FR,+33 6 73 76 76 49,"119 rue Michel, Strasbourg",67000,2021-11-26 14:51:00,ACTIVE,54
+5204,Sébastien BERNARD,2001-04-29,sebastien.bernard50@exemple.com,+33 7 55 44 21 57,"60 rue Perrin, Bourg-en-Bresse",01000,2024-06-21 11:40:00,INACTIVE,4
+5300,Emma BONNET,1952-08-26,EMMA.BONNET69@EXEMPLE.COM,07.55.37.58.26,"93 rue Mathieu, Dijon",21000,2023-06-19 08:44:00,ACTIVE,85
+5255,Inès ROUX,1968-02-12,ines.roux60@courriel.org,06.27.96.63.79,"67 rue Richard, Paris",75011,2024-10-05 17:45:00,ACTIVE,11
+5406,ROUX Thomas,1972-05-27,thomas.roux1@exemple.com,06.04.07.56.02,"100 rue Durand, Dijon",21000,2018-11-07 10:29:00,SUSPENDED,95
+5296,Inès TOURÉ,1950-04-27,INES.TOURE90@WEBMAIL.FR,07.98.67.11.01,"60 rue Masson, Lille",59000,2024-09-13 17:55:00,ACTIVE,32
+5384,Mathieu TOURÉ,1951-12-21,MATHIEU.TOURE61@EXEMPLE.COM,+33 7 05 77 67 71,"91 rue Traoré, Lyon",69003,2012-04-15 11:26:00,ACTIVE,56
+5225,Nicolas MORIN,1963-03-06,nicolas.morin42@mail.fr,+33 6 17 88 28 05,"32 rue Bertrand, Nantes",44000,2014-11-18 16:34:00,TERMINATED,38
+5238,Nicolas BERTRAND,1977-09-15,nicolas.bertrand31@webmail.fr,07.72.90.84.89,"41 rue Garcia, Paris",75011,2021-01-13 17:12:00,ACTIVE,77
+5140,"HENRY, Amélie",1987-01-09,amelie.henry30@mail.fr,+33 7 93 95 79 55,"73 rue Mathieu, Lille",59000,2026-08-23 15:55:00,ACTIVE,13
+5139,Alexandre DUMONT,1998-04-11,alexandre.dumont87@courriel.org,+33 6 62 78 79 02,"74 rue Petit, Nantes",44000,2012-02-24 10:39:00,ACTIVE,84
+5069,Benoît MASSON,1958-02-06,benoit.masson4@exemple.com,+33 6 47 91 00 59,"18 rue Clément, Bordeaux",33000,2014-11-21 12:51:00,ACTIVE,59
+5043,Fatima MORIN,2000-08-28,fatima.morin13@mail.fr,06.11.09.61.79,"82 rue Martinez, Nice",06000,2015-12-28 16:27:00,ACTIVE,89
+5399,Claire BERTRAND,1945-11-20,claire.bertrand4@courriel.org,06.45.68.84.86,"87 rue Faure, Dijon",21000,2022-07-16 12:06:00,ACTIVE,71
+5173,Laura GAUTHIER,1960-10-16,laura.gauthier44@courriel.org,+33 6 12 88 66 90,"107 rue Perrin, Strasbourg",67000,2016-12-09 18:10:00,INACTIVE,69
+5131,Sarah VINCENT,1952-09-23,sarah.vincent46@courriel.org,+33 7 96 74 33 38,"85 rue Henry, Nice",06000,2025-02-18 17:11:00,ACTIVE,51
+5164,"MARTIN, Léa",1949-04-25,lea.martin20@mail.fr,07.49.72.39.20,"2 rue Gauthier, Nantes",44000,2017-09-15 10:22:00,ACTIVE,84
+5315,Anaïs GIRARD,1961-12-17,anais.girard17@webmail.fr,07.68.49.97.70,"103 rue Dubois, Bourg-en-Bresse",01000,2022-12-13 12:57:00,TERMINATED,25
+5318,Romain DUPONT,1971-08-15,romain.dupont41@courriel.org,07.89.39.11.64,"57 rue Mathieu, Paris",75011,2019-09-02 18:08:00,ACTIVE,39
+5281,Celine LAMBERT,1977-08-28,celine.lambert80@exemple.com,+33 7 81 82 72 91,"85 rue Dupont, Bordeaux",33000,2023-08-09 13:56:00,ACTIVE,13
+5272,Manon GAUTHIER,1964-02-06,manon.gauthier81@exemple.com,06.38.78.30.56,"66 rue Diallo, Paris",75011,2014-07-20 10:35:00,ACTIVE,75
+5420,Élodie DUPONT,1962-08-07,elodie.dupont23@webmail.fr,07.96.27.62.23,"69 rue David, Rennes",35000,2012-09-25 10:57:00,TERMINATED,17
+5393,Jean GUÉRIN,1974-09-21,jean.guerin59@courriel.org,+33 7 22 95 11 08,"68 rue François, Bourg-en-Bresse",01000,2023-06-19 18:39:00,ACTIVE,92
+5076,Lucas MASSON,2002-07-15,lucas.masson56@mail.fr,07.19.67.89.63,"117 rue Diallo, Nantes",44000,2015-03-30 10:33:00,ACTIVE,69
+5278,Benoît BLANC,1949-08-14,benoit.blanc57@exemple.com,07.16.35.21.41,"1 rue Simon, Lyon",69003,2019-07-13 12:07:00,ACTIVE,86
+5195,Laura PETIT,2000-11-21,laura.petit37@courriel.org,07.76.13.04.94,"12 rue Dumont, Marseille",13006,2024-06-10 09:42:00,ACTIVE,17
+5219,Aïcha BERTRAND,1980-09-27,aicha.bertrand56@courriel.org,+33 6 98 59 07 42,"11 rue Fournier, Nantes",44000,2025-06-20 13:12:00,ACTIVE,50
+5123,Antoine MOREAU,1958-12-04,antoine.moreau58@exemple.com,07.60.02.23.02,"115 rue Vincent, Nantes",44000,2023-05-15 08:21:00,ACTIVE,51
+5364,Thomas MOREL,1956-01-24,thomas.morel96@exemple.com,07.48.76.21.64,"95 rue Bertrand, Bourg-en-Bresse",01000,2015-07-15 11:47:00,ACTIVE,46
+5405,Olivier MERCIER,1959-10-08,olivier.mercier34@courriel.org,06.96.08.41.58,"113 rue Mercier, Bourg-en-Bresse",01000,2021-10-05 17:53:00,ACTIVE,70
+5387,Lucas ROUSSEL,1968-04-02,lucas.roussel56@courriel.org,+33 7 02 75 86 03,"96 rue Chevalier, Toulouse",31000,2019-07-25 15:54:00,ACTIVE,81
+5156,Kévin MULLER,1976-08-23,kevin.muller32@exemple.com,06.45.55.59.50,"53 rue Michel, Dijon",21000,2017-11-23 18:52:00,ACTIVE,3
+5000,Julie BERNARD,04/09/1969,julie.bernard32@mail.fr,06.21.81.96.00,"28 rue Garcia, Dijon",21000,2013-08-04 09:36:00,INACTIVE,27
+5062,Marie CHEVALIER,31/02/1990,marie.chevalier48@courriel.org,07.59.95.08.91,"92 rue Simon, Nantes",44000,2013-07-03 12:03:00,ACTIVE,27
+5423,Maxime MOREAU,1974-02-11,MAXIME.MOREAU28@WEBMAIL.FR,+33 6 92 24 25 77,"99 rue Laurent, Marseille",13006,2012-10-12 11:45:00,ACTIVE,67
+5078,Sarah BONNET,1975-12-16,sarah.bonnet32@webmail.fr,06.60.96.74.62,"18 rue Thomas, Paris",75011,2020-03-04 08:10:00,TERMINATED,45
+5324,Sarah BONNET,1961-05-29,SARAH.BONNET20@EXEMPLE.COM,+33 6 16 56 63 39,"87 rue André, Dijon",21000,2025-05-08 16:53:00,ACTIVE,86
+5072,Amélie BERNARD,1953-10-07,amelie.bernard94@mail.fr,+33 6 86 04 79 47,"97 rue Henry, Lyon",69003,2025-03-19 09:16:00,ACTIVE,72
+5331,Maxime CHEVALIER,1963-01-03,maxime.chevalier43@mail.fr,06.75.73.51.85,"101 rue Fontaine, Bordeaux",33000,2016-11-28 15:47:00,ACTIVE,23
+5455,Élodie ANDRÉ,1945-10-19,ELODIE.ANDRE74@WEBMAIL.FR,+33 7 42 52 75 05,"116 rue Guérin, Lyon",69003,2025-11-13 11:31:00,ACTIVE,13
+5460,"DUBOIS, Maxime",1973-12-26,maxime.dubois62@webmail.fr,+33 7 06 29 81 09,"83 rue André, Lyon",69003,2012-12-09 15:14:00,ACTIVE,25
+5034,Laura LEGRAND,1983-04-27,laura.legrand83@courriel.org,+33 6 56 64 18 77,"67 rue Robin, Paris",75011,2024-04-28 16:12:00,ACTIVE,97
+5118,François BONNET,1949-02-08,francois.bonnet45@webmail.fr,+33 6 96 56 88 26,"23 rue Blanc, Rennes",35000,2017-01-03 08:34:00,ACTIVE,98
+5453,Mohamed RICHARD,1974-11-15,mohamed.richard5@exemple.com,+33 7 41 52 64 45,"77 rue Traoré, Bordeaux",33000,2016-03-31 16:51:00,ACTIVE,31
+5209,Olivier ANDRÉ,1977-07-28,olivier.andre81@webmail.fr,+33 7 17 60 90 93,"13 rue Bonnet, Rennes",35000,2017-03-30 16:28:00,ACTIVE,7
+5013,Sébastien ANDRÉ,1985-07-18,sebastien.andre40@courriel.org,+33 7 41 12 49 03,"19 rue Richard, Toulouse",31000,2026-02-13 12:58:00,ACTIVE,71
+5111,Benoît GUÉRIN,1966-09-29,benoit.guerin98@mail.fr,07.96.67.71.53,"102 rue Simon, Bourg-en-Bresse",01000,2021-09-11 12:53:00,ACTIVE,8
+5280,Sarah ROUSSEAU,1971-01-14,SARAH.ROUSSEAU15@EXEMPLE.COM,+33 7 01 38 56 99,"75 rue Durand, Lyon",69003,2018-11-21 14:39:00,TERMINATED,65
+5009,MASSON Léa,2002-07-22,lea.masson94@courriel.org,07.56.76.61.82,"16 rue Laurent, Marseille",13006,2021-06-10 10:57:00,TERMINATED,90
+5086,Fatima MARTINEZ,2005-09-22,fatima.martinez32@webmail.fr,+33 7 36 73 55 89,"6 rue Faure, Bordeaux",33000,2025-07-15 15:58:00,INACTIVE,21
+5253,Manon ROBERT,1982-09-14,manon.robert5@mail.fr,+33 7 01 05 58 39,"12 rue Petit, Bourg-en-Bresse",01000,2012-01-20 18:42:00,INACTIVE,69
+5392,"MASSON, Olivier",1966-02-20,olivier.masson27@mail.fr,07.49.08.47.49,"81 rue Richard, Paris",75011,2020-02-20 13:19:00,ACTIVE,96
+5113,"TRAORÉ, Léa",1976-02-10,LEA.TRAORE23@EXEMPLE.COM,+33 7 83 57 33 81,"32 rue Bernard, Dijon",21000,2024-10-13 16:23:00,ACTIVE,58
+5098,François BONNET,1986-05-23,francois.bonnet20@courriel.org,07.22.69.34.85,"88 rue Bernard, Nantes",44000,2026-07-30 14:04:00,ACTIVE,16
+5457,Claire SIMON,1981-03-07,claire.simon53@exemple.com,07.90.53.66.78,"98 rue Laurent, Dijon",21000,2016-03-31 11:06:00,ACTIVE,85
+5066,Julien DUPONT,1968-03-31,JULIEN.DUPONT17@MAIL.FR,06.42.19.59.73,"108 rue Roussel, Toulouse",31000,2020-02-17 11:54:00,ACTIVE,8
+5400,Thomas GUÉRIN,1962-04-24,thomas.guerin56@courriel.org,06.82.52.89.40,"28 rue Roussel, Paris",75011,2013-02-24 11:42:00,ACTIVE,54
+5087,Claire MORIN,2000-02-17,CLAIRE.MORIN30@COURRIEL.ORG,07.63.57.96.71,"67 rue Bernard, Nice",06000,2021-04-23 11:57:00,ACTIVE,75
+5286,Hugo TRAORÉ,1985-12-01,hugo.traore49@courriel.org,07.62.13.80.59,"10 rue Perrin, Nantes",44000,2025-09-25 09:22:00,ACTIVE,74
+5265,Thomas THOMAS,1964-11-10,thomas.thomas25@courriel.org,+33 7 65 33 63 30,"62 rue Lopez, Rennes",35000,2022-05-16 08:53:00,TERMINATED,34
+5439,Mohamed MATHIEU,1992-04-17,mohamed.mathieu45@mail.fr,+33 7 48 95 57 13,"103 rue Morin, Strasbourg",67000,2021-11-01 18:10:00,ACTIVE,28
+5273,Amélie LEFEBVRE,1978-01-19,amelie.lefebvre16@webmail.fr,07.39.22.29.31,"83 rue Legrand, Nice",06000,2013-10-08 15:19:00,ACTIVE,16
+5082,"CLÉMENT, Sophie",1954-11-07,sophie.clement16@mail.fr,07.47.73.49.43,"105 rue Clément, Paris",75011,2018-12-06 09:25:00,ACTIVE,83
+5292,Yann LEGRAND,1951-11-11,yann.legrand17@exemple.com,06.98.18.93.97,"6 rue Roux, Bourg-en-Bresse",01000,2022-03-26 11:17:00,ACTIVE,71
+5228,Sébastien DUMONT,1994-06-26,sebastien.dumont92@mail.fr,07.18.88.17.86,"91 rue Diallo, Nantes",44000,2016-09-21 11:07:00,ACTIVE,23
+5264,"RICHARD, Alexandre",1974-09-07,ALEXANDRE.RICHARD61@MAIL.FR,+33 6 79 43 21 83,"19 rue Roux, Bordeaux",33000,2018-11-01 16:32:00,ACTIVE,40
+5361,Romain ANDRE,1961-12-02,ROMAIN.ANDRE85@WEBMAIL.FR,06.80.41.91.71,"7 rue David, Rennes",35000,2016-06-19 09:14:00,ACTIVE,70
+5108,Benoît TRAORÉ,1985-05-01,benoit.traore31@courriel.org,+33 7 77 24 43 43,"111 rue Fournier, Lille",59000,2015-07-07 17:58:00,ACTIVE,97
+5348,FOURNIER Céline,1970-09-04,celine.fournier69@webmail.fr,07.42.73.98.35,"102 rue Gauthier, Bordeaux",33000,2018-12-28 08:24:00,ACTIVE,7
+5492,Claire DUBOIS,1972-03-09,claire.dubois36@mail.fr,07.77.14.05.77,"18 rue Mercier, Bourg-en-Bresse",01000,2016-11-08 15:16:00,TERMINATED,34
+5036,Laura DURAND,1951-11-13,laura.durand97@mail.fr,+33 6 85 67 24 38,"60 rue Bernard, Nantes",44000,2024-02-01 17:37:00,ACTIVE,2
+5266,Mohamed THOMAS,1961-07-03,mohamed.thomas44@courriel.org,+33 6 83 39 71 78,"49 rue Blanc, Lyon",69003,2019-10-14 13:57:00,INACTIVE,10
+5106,DUBOIS Élodie,1954-08-03,elodie.dubois73@mail.fr,07.79.72.09.25,"74 rue Leroy, Dijon",21000,2025-02-17 13:32:00,ACTIVE,13
+5350,"RICHARD, Emma",1954-06-11,emma.richard60@exemple.com,+33 7 49 44 95 74,"98 rue Touré, Lyon",69003,2023-01-06 18:39:00,ACTIVE,32
+5335,Hélène TRAORÉ,1983-04-29,HELENE.TRAORE22@WEBMAIL.FR,07.26.69.23.25,"95 rue Touré, Bourg-en-Bresse",01000,2021-08-27 14:25:00,ACTIVE,45
+5027,Claire ROUSSEAU,1956-01-04,claire.rousseau61@webmail.fr,07.79.51.37.11,"115 rue Laurent, Strasbourg",67000,2018-11-08 10:17:00,ACTIVE,19
+5114,Antoine THOMAS,1965-08-25,ANTOINE.THOMAS45@MAIL.FR,+33 6 51 60 23 25,"105 rue Bernard, Toulouse",31000,2019-08-24 14:19:00,ACTIVE,75
+5138,Aicha ROUSSEL,1999-04-13,aicha.roussel80@courriel.org,+33 7 22 52 96 44,"88 rue Blanc, Nice",06000,2024-08-08 15:30:00,ACTIVE,42
+5475,Léa CHEVALIER,1991-01-03,lea.chevalier83@exemple.com,+33 6 88 06 83 11,"86 rue Touré, Lille",59000,2016-10-20 16:54:00,ACTIVE,96
+5165,Julien CLEMENT,1959-11-15,julien.clement8@mail.fr,+33 7 16 41 53 74,"102 rue Traoré, Bourg-en-Bresse",01000,2012-02-09 16:20:00,ACTIVE,98
+5447,Mohamed GARNIER,1956-09-27,mohamed.garnier46@mail.fr,+33 6 40 25 89 88,"4 rue Morin, Bourg-en-Bresse",01000,2014-07-24 08:50:00,ACTIVE,47
+5001,Romain BERTRAND,05/08/1970,romain.bertrand55@courriel.org,07.23.43.09.80,"8 rue Thomas, Lille",59000,2025-02-15 08:25:00,ACTIVE,21
+5314,Lucas MOREAU,1945-06-09,lucas.moreau4@exemple.com,+33 7 78 95 91 53,"91 rue Fournier, Toulouse",31000,2016-07-14 12:04:00,INACTIVE,31
+5016,Antoine DURAND,1950-04-06,ANTOINE.DURAND21@COURRIEL.ORG,+33 6 69 79 72 96,"79 rue Bernard, Marseille",13006,2012-04-01 10:19:00,ACTIVE,21
+5079,Alexandre FONTAINE,2003-11-20,alexandre.fontaine28@exemple.com,+33 6 07 75 58 21,"50 rue Laurent, Bourg-en-Bresse",01000,2019-09-14 09:42:00,ACTIVE,72
+5482,Marie DUPONT,1982-05-01,marie.dupont88@webmail.fr,+33 7 06 33 11 91,"90 rue Richard, Bordeaux",33000,2022-06-18 08:49:00,TERMINATED,62
+5442,Claire MULLER,2001-06-13,claire.muller42@mail.fr,+33 7 88 27 37 63,"76 rue Garnier, Lille",59000,2013-03-28 18:41:00,ACTIVE,46
+5471,Fatima ROUSSEAU,1980-12-01,fatima.rousseau8@courriel.org,06.89.51.59.23,"118 rue Dumont, Nice",06000,2012-03-19 14:02:00,ACTIVE,82
+5171,François BONNET,1951-04-10,francois.bonnet47@webmail.fr,07.86.22.30.70,"43 rue Perrin, Lyon",69003,2026-08-04 15:04:00,ACTIVE,81
+5203,Emma MATHIEU,1967-07-09,emma.mathieu5@exemple.com,+33 6 70 43 33 31,"69 rue Roux, Toulouse",31000,2014-07-20 15:26:00,ACTIVE,49
+5277,Alexandre VINCENT,1959-08-06,alexandre.vincent1@exemple.com,06.13.54.69.22,"73 rue Vincent, Bordeaux",33000,2013-02-18 14:03:00,ACTIVE,31
+5057,Hélène MARTINEZ,1992-01-01,helene.martinez33@mail.fr,06.90.80.51.20,"1 rue Morel, Lyon",69003,2022-10-07 14:29:00,ACTIVE,39
+5474,Antoine HENRY,1974-05-22,antoine.henry93@courriel.org,07.09.57.92.81,"58 rue Fontaine, Paris",75011,2012-10-15 18:53:00,TERMINATED,48
+5172,Antoine VINCENT,1985-12-17,antoine.vincent46@webmail.fr,+33 7 31 12 13 80,"70 rue Laurent, Nice",06000,2018-08-25 09:33:00,TERMINATED,21
+5134,Mohamed MARTIN,1971-07-22,mohamed.martin85@webmail.fr,+33 7 57 03 93 42,"90 rue Petit, Lyon",69003,2013-10-19 09:42:00,ACTIVE,7
+5378,Laura MULLER,1950-12-26,laura.muller21@exemple.com,06.99.66.76.37,"3 rue Lefebvre, Lyon",69003,2019-04-24 15:51:00,ACTIVE,24
+5319,MOREL Helene,1951-05-03,helene.morel63@exemple.com,+33 7 04 99 88 78,"76 rue Muller, Marseille",13006,2024-01-10 15:50:00,ACTIVE,82
+5153,Hugo MOREL,1947-04-17,hugo.morel83@exemple.com,+33 6 78 83 69 22,"26 rue Lopez, Bourg-en-Bresse",01000,2015-02-06 18:51:00,ACTIVE,25
+5494,Fatima TOURÉ,1947-01-19,fatima.toure31@courriel.org,07.69.80.27.64,"70 rue Laurent, Bordeaux",33000,2015-02-17 12:31:00,ACTIVE,36
+5039,Élodie HENRY,2003-02-12,elodie.henry66@autre-mail.fr,+33 6 62 56 60 93,"35 rue Durand, Bourg-en-Bresse",01000,2019-04-22 08:41:00,ACTIVE,69
+5452,Anais ROUSSEL,1985-08-04,anais.roussel51@courriel.org,+33 6 29 57 94 74,"5 rue Muller, Strasbourg",67000,2013-11-06 12:53:00,SUSPENDED,32
+5093,Emma ROUSSEL,1986-09-05,emma.roussel2@webmail.fr,07.42.15.31.93,"94 rue Leroy, Bordeaux",33000,2025-07-14 11:12:00,ACTIVE,47
+5395,PERRIN Antoine,1978-08-19,ANTOINE.PERRIN4@COURRIEL.ORG,06.30.50.66.71,"70 rue Girard, Strasbourg",67000,2018-07-25 17:11:00,ACTIVE,100
+5448,Sophie TRAORÉ,1972-03-07,sophie.traore75@mail.fr,+33 6 16 60 81 61,"44 rue Morin, Lille",59000,2026-05-15 16:37:00,ACTIVE,80
+5222,Mohamed LAURENT,1977-06-22,MOHAMED.LAURENT8@MAIL.FR,07.20.53.53.13,"66 rue Roux, Lyon",69003,2018-01-27 12:56:00,ACTIVE,92
+5317,Olivier ROUSSEAU,1960-07-13,olivier.rousseau54@exemple.com,+33 6 49 21 22 33,"16 rue Morel, Lille",59000,2017-12-18 09:46:00,TERMINATED,83
+5466,Francois SIMON,1965-04-06,francois.simon47@exemple.com,07.17.63.52.41,"84 rue Bernard, Bordeaux",33000,2021-11-15 15:18:00,ACTIVE,38
+5152,Benoit CHEVALIER,1986-06-15,benoit.chevalier78@webmail.fr,+33 7 58 57 83 75,"86 rue Diallo, Paris",75011,2020-09-12 09:56:00,SUSPENDED,81
+5056,Romain DUBOIS,1954-09-03,romain.dubois76@webmail.fr,06.91.13.59.96,"92 rue Chevalier, Rennes",35000,2012-08-13 11:30:00,ACTIVE,53
+5237,Hugo BONNET,1969-05-12,hugo.bonnet64@courriel.org,+33 6 26 32 76 76,"77 rue Lambert, Nice",06000,2021-12-10 12:55:00,ACTIVE,4
+5385,"BLANC, Claire",1954-12-09,claire.blanc77@mail.fr,+33 6 49 72 65 57,"25 rue Lambert, Lille",59000,2023-08-16 16:09:00,TERMINATED,41
+5481,Céline LEROY,1968-09-01,celine.leroy71@courriel.org,+33 6 18 08 29 38,"8 rue Diallo, Toulouse",31000,2019-03-15 11:13:00,ACTIVE,57
+5183,Hugo MICHEL,2000-12-05,hugo.michel56@courriel.org,+33 6 76 86 12 73,"105 rue Leroy, Rennes",35000,2023-10-16 17:03:00,ACTIVE,82
+5473,Manon DAVID,1964-12-30,manon.david48@courriel.org,07.36.97.01.68,"20 rue Mercier, Nice",06000,2018-01-09 18:01:00,ACTIVE,45
+5301,Hélène MATHIEU,1990-07-29,helene.mathieu67@webmail.fr,06.50.75.07.81,"104 rue Michel, Marseille",13006,2017-07-02 08:19:00,ACTIVE,6
+5436,Yann MOREL,1972-11-09,yann.morel45@mail.fr,+33 6 58 10 58 01,"72 rue Mathieu, Bordeaux",33000,2016-05-07 14:50:00,ACTIVE,49
+5379,BONNET Amelie,1987-11-30,amelie.bonnet5@courriel.org,+33 7 46 73 93 16,"93 rue Nicolas, Lille",59000,2014-02-13 10:37:00,INACTIVE,54
+5312,GUÉRIN Élodie,1985-01-22,elodie.guerin35@mail.fr,+33 6 10 66 72 64,"65 rue Martinez, Nantes",44000,2017-12-18 13:43:00,ACTIVE,66
+5306,Hélène ROUSSEL,1960-03-23,HELENE.ROUSSEL68@EXEMPLE.COM,+33 6 76 77 42 39,"41 rue Dumont, Nantes",44000,2020-07-04 08:31:00,ACTIVE,21
+5313,Emma BERTRAND,1984-05-06,emma.bertrand70@webmail.fr,+33 6 47 04 07 93,"45 rue Robert, Toulouse",31000,2020-03-02 14:57:00,ACTIVE,23
+5339,Jean MARTIN,1945-07-06,JEAN.MARTIN89@COURRIEL.ORG,06.91.76.53.24,"68 rue David, Dijon",21000,2024-05-22 15:00:00,ACTIVE,18
+5445,Pierre BONNET,1982-04-09,pierre.bonnet58@webmail.fr,+33 6 12 81 56 83,"101 rue Bernard, Rennes",35000,2021-07-22 11:36:00,ACTIVE,67
+5325,Sarah SIMON,1957-08-30,sarah.simon37@exemple.com,07.35.07.45.09,"95 rue David, Paris",75011,2022-07-01 15:06:00,ACTIVE,22
+5465,Mathieu DURAND,1953-06-24,MATHIEU.DURAND38@WEBMAIL.FR,06.82.31.01.71,"16 rue Nicolas, Bordeaux",33000,2019-06-18 14:49:00,ACTIVE,29
+5362,Sébastien THOMAS,1959-03-17,sebastien.thomas88@webmail.fr,06.09.36.76.77,"59 rue David, Dijon",21000,2017-08-10 11:22:00,ACTIVE,92
+5202,François MICHEL,1981-08-15,FRANCOIS.MICHEL77@EXEMPLE.COM,+33 6 32 76 33 42,"69 rue André, Bordeaux",33000,2013-03-11 08:34:00,ACTIVE,39
+5459,Romain MASSON,1946-02-08,romain.masson65@exemple.com,+33 7 23 65 04 60,"53 rue Mathieu, Bordeaux",33000,2012-12-19 14:08:00,ACTIVE,67
+5154,Antoine LEGRAND,1973-02-17,antoine.legrand89@exemple.com,07.14.97.24.90,"18 rue Leroy, Toulouse",31000,2015-05-03 08:02:00,ACTIVE,60
+5440,Olivier ROUX,1985-10-30,olivier.roux57@courriel.org,+33 7 61 91 89 87,"48 rue Faure, Strasbourg",67000,2024-05-06 13:18:00,ACTIVE,93
+5214,Romain CHEVALIER,1953-02-17,romain.chevalier77@courriel.org,07.99.91.36.50,"44 rue Durand, Bourg-en-Bresse",01000,2015-04-24 17:54:00,ACTIVE,20
+5330,Fatima MICHEL,1957-08-10,fatima.michel44@mail.fr,+33 7 77 54 65 86,"62 rue Simon, Bourg-en-Bresse",01000,2023-11-07 12:52:00,ACTIVE,42
+5168,Jean ROBIN,1959-01-06,jean.robin19@courriel.org,+33 7 42 59 72 05,"38 rue Guérin, Paris",75011,2015-11-30 17:15:00,TERMINATED,13
+5244,LEFEBVRE Jean,1985-07-10,jean.lefebvre71@courriel.org,+33 6 64 31 67 85,"34 rue Roux, Lyon",69003,2025-11-21 17:49:00,ACTIVE,95
+5243,Anais MATHIEU,1955-09-08,anais.mathieu4@courriel.org,+33 7 40 70 78 38,"57 rue Blanc, Nantes",44000,2014-11-25 15:11:00,ACTIVE,78
+5369,Alexandre DURAND,1982-01-30,alexandre.durand15@courriel.org,+33 6 33 95 63 22,"117 rue Mercier, Dijon",21000,2020-09-12 17:31:00,ACTIVE,67
+5161,Emma GUÉRIN,1958-11-30,EMMA.GUERIN52@MAIL.FR,06.92.82.61.64,"57 rue Bernard, Nice",06000,2021-01-01 14:19:00,TERMINATED,73
+5208,Antoine FONTAINE,1970-07-30,antoine.fontaine65@mail.fr,07.49.39.16.60,"75 rue Durand, Toulouse",31000,2024-10-21 18:44:00,ACTIVE,60
+5010,Chloe DUMONT,1987-08-30,chloe.dumont35@autre-exemple.com,+33 6 14 89 02 50,"76 rue Moreau, Rennes",35000,2024-10-25 17:16:00,ACTIVE,12
+5041,"LOPEZ, Hélène",1963-02-25,helene.lopez18@mail.fr,07.97.24.57.23,"70 rue Dumont, Lyon",69003,2026-05-07 14:36:00,ACTIVE,2
+5054,Amelie DUPONT,1954-02-06,amelie.dupont8@mail.fr,07.48.57.41.72,"42 rue Masson, Paris",75011,2025-07-30 15:52:00,ACTIVE,100
+5019,RICHARD Antoine,1980-11-01,antoine.richard46@courriel.org,+33 7 69 38 01 18,"93 rue Muller, Nice",06000,2012-09-09 10:44:00,ACTIVE,96
+5030,FOURNIER Manon,1959-05-18,MANON.FOURNIER57@WEBMAIL.FR,07.60.41.77.65,"113 rue Touré, Toulouse",31000,2015-12-10 12:15:00,ACTIVE,22
+5241,Julien ROUSSEL,1987-09-08,JULIEN.ROUSSEL73@COURRIEL.ORG,07.38.33.06.14,"28 rue Morel, Lille",59000,2022-07-20 13:27:00,ACTIVE,7
+5394,TOURÉ Romain,1973-01-06,romain.toure36@webmail.fr,+33 6 06 67 88 45,"112 rue Garcia, Marseille",13006,2013-07-08 18:59:00,ACTIVE,59
+5293,Marie FAURE,2003-12-22,marie.faure52@exemple.com,+33 7 03 15 75 85,"117 rue Henry, Rennes",35000,2012-09-11 14:14:00,ACTIVE,53
+5021,Nicolas LAURENT,1963-02-17,nicolas.laurent14@courriel.org,07.31.09.67.89,"7 rue Mercier, Paris",75011,2024-12-01 12:06:00,ACTIVE,44
+5321,Alexandre GIRARD,1989-09-10,ALEXANDRE.GIRARD41@MAIL.FR,+33 7 24 52 96 15,"36 rue Lefebvre, Strasbourg",67000,2017-06-01 13:22:00,TERMINATED,54
+5074,CLÉMENT Sébastien,1959-04-03,sebastien.clement68@exemple.com,+33 6 80 18 32 35,"6 rue François, Marseille",13006,2018-01-11 12:36:00,ACTIVE,73
+7002,ALEXANDRE LOPEZ,1989-11-28,ALEXANDRE.LOPEZ58@COURRIEL.ORG,,"78 rue Lefebvre, Dijon",21000,2018-03-22 12:22:00,ACTIVE,100
+5254,Laura MORIN,1991-07-17,LAURA.MORIN22@MAIL.FR,+33 6 88 93 84 47,"97 rue Robin, Lille",59000,2022-10-13 12:09:00,ACTIVE,52
+5133,Sarah HENRY,1956-02-28,sarah.henry98@mail.fr,+33 7 96 70 60 55,"62 rue Garcia, Toulouse",31000,2018-10-12 14:13:00,INACTIVE,68
+5307,BERTRAND Lucas,2001-05-06,lucas.bertrand81@courriel.org,07.86.96.53.71,"116 rue André, Toulouse",31000,2013-02-27 15:39:00,ACTIVE,29
+5042,Inès MARTIN,1970-05-03,ines.martin51@autre-mail.fr,+33 6 56 52 15 68,"65 rue Diallo, Nantes",44000,2021-03-04 14:54:00,ACTIVE,29
+5380,Kévin LEROY,1969-05-31,kevin.leroy64@courriel.org,06.09.58.04.01,"50 rue Durand, Nantes",44000,2017-03-13 18:19:00,ACTIVE,36
+5211,Emma DAVID,1990-11-21,EMMA.DAVID74@COURRIEL.ORG,+33 7 46 92 43 43,"33 rue Blanc, Paris",75011,2018-12-17 14:39:00,ACTIVE,54
+5316,Romain MULLER,1952-05-25,romain.muller85@webmail.fr,+33 7 38 76 21 57,"103 rue Fournier, Lille",59000,2017-03-30 18:04:00,ACTIVE,92
+5147,"LAURENT, Sébastien",1948-08-16,sebastien.laurent29@courriel.org,06.74.89.03.04,"103 rue Guérin, Bordeaux",33000,2026-10-26 13:38:00,INACTIVE,5
+5242,Yann RICHARD,1993-08-09,yann.richard88@mail.fr,06.29.23.61.39,"17 rue Lefebvre, Bourg-en-Bresse",01000,2012-04-05 15:37:00,ACTIVE,5
+5486,Sarah FRANÇOIS,1972-10-02,SARAH.FRANCOIS67@WEBMAIL.FR,07.00.00.40.04,"33 rue André, Nantes",44000,2018-04-29 14:27:00,ACTIVE,56
+5449,"BERNARD, Yann",1996-03-14,yann.bernard80@courriel.org,+33 6 64 94 93 56,"95 rue Dumont, Bordeaux",33000,2012-11-10 16:46:00,ACTIVE,44
+5467,DUBOIS Amelie,1987-03-29,amelie.dubois11@courriel.org,+33 7 53 22 79 97,"21 rue Lambert, Nantes",44000,2013-06-30 12:10:00,ACTIVE,14
+5322,Fatima DAVID,1963-03-30,fatima.david70@webmail.fr,07.86.41.78.25,"116 rue Dubois, Bourg-en-Bresse",01000,2024-01-14 12:08:00,ACTIVE,46
+5298,Thomas ROUSSEAU,1959-11-25,thomas.rousseau60@webmail.fr,+33 7 91 70 03 43,"35 rue Lefebvre, Lyon",69003,2013-06-28 09:37:00,INACTIVE,3
+5418,"MICHEL, Thomas",1970-08-10,thomas.michel74@webmail.fr,07.04.38.96.41,"35 rue André, Paris",75011,2022-12-21 14:16:00,ACTIVE,23
+5443,Pierre MARTINEZ,1957-08-09,pierre.martinez77@exemple.com,+33 7 29 01 07 93,"89 rue Moreau, Dijon",21000,2013-07-08 15:28:00,ACTIVE,74
+5051,Benoît DUPONT,1997-10-15,benoit.dupont5@mail.fr,07.15.02.67.55,"24 rue André, Bourg-en-Bresse",01000,2017-06-26 11:06:00,ACTIVE,86
+5268,Sebastien MATHIEU,1983-03-01,sebastien.mathieu19@mail.fr,06.71.92.60.26,"16 rue Muller, Nantes",44000,2013-02-05 08:55:00,ACTIVE,17
+5458,Thomas ROUSSEAU,1954-06-16,thomas.rousseau51@mail.fr,+33 7 48 02 36 28,"112 rue Durand, Paris",75011,2013-12-10 13:37:00,INACTIVE,2
+5097,"FOURNIER, Jean",1970-03-15,JEAN.FOURNIER69@WEBMAIL.FR,06.94.73.18.15,"3 rue Girard, Strasbourg",67000,2020-10-17 12:56:00,ACTIVE,37
+5187,Nicolas MASSON,1964-07-29,nicolas.masson89@webmail.fr,07.00.71.58.00,"111 rue Robert, Toulouse",31000,2024-02-24 16:35:00,ACTIVE,83
+5274,Inès MICHEL,2002-06-26,ines.michel41@mail.fr,06.53.81.15.75,"110 rue Roussel, Nice",06000,2016-06-02 11:36:00,ACTIVE,68
+5157,LAURENT Céline,1966-11-28,CELINE.LAURENT52@WEBMAIL.FR,+33 7 26 90 22 20,"48 rue Girard, Dijon",21000,2025-09-19 08:29:00,ACTIVE,60
+5122,Hugo DIALLO,1967-04-26,hugo.diallo68@exemple.com,06.00.09.14.35,"79 rue Fournier, Nice",06000,2020-01-21 09:33:00,ACTIVE,48
+5105,Yann GUÉRIN,1971-03-25,YANN.GUERIN95@EXEMPLE.COM,06.30.95.87.23,"51 rue Guérin, Nantes",44000,2014-03-27 17:40:00,ACTIVE,12
+5433,Alexandre VINCENT,1994-04-06,ALEXANDRE.VINCENT24@EXEMPLE.COM,+33 7 00 29 33 13,"51 rue Rousseau, Dijon",21000,2025-08-16 09:33:00,ACTIVE,89
+5484,"GIRARD, Marie",1964-08-20,marie.girard50@courriel.org,+33 7 91 20 72 09,"62 rue Muller, Dijon",21000,2024-01-30 09:52:00,ACTIVE,33
+5217,Léa MOREL,1997-05-15,lea.morel96@courriel.org,+33 7 92 06 23 14,"77 rue François, Nantes",44000,2013-02-05 11:50:00,ACTIVE,66
+5289,Manon THOMAS,1974-12-30,MANON.THOMAS75@WEBMAIL.FR,07.00.38.18.03,"39 rue Muller, Bordeaux",33000,2013-05-28 14:40:00,ACTIVE,68
+5334,GUÉRIN Aïcha,2004-02-22,aicha.guerin85@exemple.com,07.76.79.00.78,"40 rue Fournier, Toulouse",31000,2012-05-14 16:20:00,ACTIVE,23
+5163,Antoine DUBOIS,1986-12-05,antoine.dubois84@courriel.org,06.07.40.43.36,"94 rue Martinez, Lille",59000,2023-02-18 16:47:00,ACTIVE,92
+5077,FOURNIER Chloé,1998-11-06,chloe.fournier22@mail.fr,+33 7 66 80 98 46,"11 rue Diallo, Bourg-en-Bresse",01000,2022-11-25 09:59:00,ACTIVE,33
+5357,Marie FAURE,1952-05-07,marie.faure22@webmail.fr,+33 6 01 84 26 22,"40 rue Mathieu, Nantes",44000,2018-03-14 18:15:00,ACTIVE,58
+5491,Anaïs ROBIN,1999-10-13,anais.robin11@exemple.com,06.93.52.64.25,"15 rue Martinez, Paris",75011,2025-04-05 18:42:00,INACTIVE,53
+5089,Chloé LAURENT,1973-06-11,chloe.laurent36@webmail.fr,07.11.81.85.13,"118 rue Martinez, Nantes",44000,2024-01-17 12:55:00,ACTIVE,10
+5126,Julie PETIT,2000-03-26,julie.petit17@exemple.com,+33 7 69 24 76 88,"38 rue Robert, Rennes",35000,2017-03-11 10:20:00,ACTIVE,56
+5117,"BERNARD, Fatima",1948-10-09,fatima.bernard96@exemple.com,+33 6 10 14 61 03,"63 rue Rousseau, Strasbourg",67000,2024-01-06 13:05:00,ACTIVE,87
+5432,Thomas RICHARD,2003-09-05,thomas.richard47@courriel.org,06.73.96.52.72,"75 rue Chevalier, Toulouse",31000,2020-08-13 17:48:00,ACTIVE,12
+5366,Amélie MARTIN,1968-02-18,amelie.martin10@courriel.org,07.24.28.67.85,"33 rue Faure, Paris",75011,2021-07-01 15:09:00,ACTIVE,43
+5416,"GIRARD, Marie",1994-08-08,marie.girard95@mail.fr,06.05.63.58.69,"82 rue Laurent, Paris",75011,2021-06-19 12:09:00,ACTIVE,19
+5081,Amélie DUBOIS,1946-09-07,amelie.dubois47@webmail.fr,+33 7 49 43 43 68,"85 rue Faure, Lille",59000,2016-09-20 13:37:00,ACTIVE,15
+5323,Julie FAURE,1986-01-19,julie.faure25@mail.fr,07.79.90.10.27,"78 rue Robin, Rennes",35000,2020-08-01 10:52:00,ACTIVE,92
+5044,Maxime NICOLAS,1992-04-21,MAXIME.NICOLAS28@COURRIEL.ORG,+33 6 84 91 96 65,"26 rue Lefebvre, Toulouse",31000,2012-09-29 10:21:00,ACTIVE,87
+5462,Aïcha GARCIA,1955-07-08,aicha.garcia43@courriel.org,+33 6 29 32 29 72,"33 rue Dubois, Strasbourg",67000,2013-03-02 08:30:00,INACTIVE,73
+5010,Chloe DUMONT,1987-08-30,chloe.dumont35@autre-exemple.com,+33 6 14 89 02 50,"76 rue Moreau, Rennes",35000,2024-10-25 17:16:00,ACTIVE,12
+5018,"MARTINEZ, Nicolas",1961-01-27,nicolas.martinez73@courriel.org,+33 6 75 03 73 14,"30 rue Dubois, Marseille",13006,2024-03-16 09:41:00,ACTIVE,37
+5080,Benoît PETIT,1990-04-18,benoit.petit9@mail.fr,+33 7 75 51 29 44,"102 rue Fournier, Rennes",35000,2021-12-23 14:22:00,ACTIVE,40
+5233,Lucas MICHEL,1953-01-05,LUCAS.MICHEL63@COURRIEL.ORG,+33 7 91 95 38 08,"23 rue François, Nice",06000,2023-10-16 08:19:00,ACTIVE,95
+5434,Élodie ROBERT,1997-12-21,elodie.robert46@exemple.com,07.17.65.58.92,"29 rue Dumont, Dijon",21000,2017-04-13 13:09:00,ACTIVE,56
+5196,Kévin MOREL,1969-07-29,kevin.morel82@webmail.fr,07.71.15.88.21,"5 rue Gauthier, Bordeaux",33000,2014-04-24 17:54:00,ACTIVE,7
+5011,Hugo MARTINEZ,1983-07-16,hugo.martinez50@courriel.org,+33 6 33 41 91 82,"42 rue Lefebvre, Rennes",35000,2020-09-26 11:49:00,ACTIVE,31
+5166,Camille DIALLO,1972-01-09,camille.diallo77@courriel.org,06.58.49.68.81,"35 rue Roussel, Lille",59000,2021-10-17 11:11:00,ACTIVE,97
+5191,Hélène GIRARD,2001-07-29,helene.girard35@courriel.org,+33 7 54 26 83 68,"119 rue Masson, Nantes",44000,2012-02-26 09:05:00,ACTIVE,52
+5429,Léa ROUSSEAU,1982-01-18,LEA.ROUSSEAU11@WEBMAIL.FR,06.74.66.69.74,"20 rue Traoré, Paris",75011,2024-11-05 13:45:00,ACTIVE,46
+5226,Alexandre LOPEZ,1989-11-28,ALEXANDRE.LOPEZ58@COURRIEL.ORG,+33 6 20 75 31 36,"78 rue Lefebvre, Dijon",21000,2018-03-22 12:22:00,ACTIVE,100
+5351,VINCENT Romain,1997-08-18,romain.vincent77@webmail.fr,+33 7 24 73 53 99,"48 rue Robin, Marseille",13006,2017-04-05 08:21:00,TERMINATED,71
+5058,Hugo GIRARD,1984-05-16,hugo.girard4@courriel.org,07.13.98.48.22,"8 rue Durand, Bourg-en-Bresse",01000,2016-08-28 18:49:00,ACTIVE,79
+5023,Chloé THOMAS,1958-04-21,chloe.thomas8@mail.fr,07.02.09.94.51,"14 rue Bonnet, Marseille",13006,2016-01-07 14:55:00,ACTIVE,99
+5288,MICHEL Léa,1993-11-23,LEA.MICHEL15@COURRIEL.ORG,+33 6 81 71 89 93,"111 rue Fournier, Bourg-en-Bresse",01000,2014-05-11 08:34:00,ACTIVE,20
+5305,Anaïs CLÉMENT,1987-09-08,anais.clement50@courriel.org,06.76.40.40.46,"85 rue Mercier, Marseille",13006,2012-11-06 15:49:00,ACTIVE,86
+5414,Marie CLÉMENT,2001-01-07,MARIE.CLEMENT64@WEBMAIL.FR,07.21.34.61.64,"10 rue Morel, Lyon",69003,2021-12-05 09:39:00,ACTIVE,34
+5053,NICOLAS Sarah,1957-07-25,sarah.nicolas19@courriel.org,+33 7 03 59 54 42,"61 rue Lopez, Paris",75011,2021-04-10 10:24:00,ACTIVE,50
+5285,Mathieu RICHARD,2000-02-07,mathieu.richard78@mail.fr,+33 7 93 11 69 92,"84 rue Lefebvre, Strasbourg",67000,2018-05-03 18:36:00,ACTIVE,51
+5409,Jean BONNET,1961-01-04,jean.bonnet90@mail.fr,+33 7 29 90 43 88,"63 rue Fontaine, Nice",06000,2018-12-06 14:17:00,INACTIVE,16
+5275,"TOURE, Romain",1945-06-06,romain.toure67@courriel.org,+33 7 50 69 43 94,"103 rue Petit, Lille",59000,2023-10-07 09:32:00,ACTIVE,81
+5456,Manon MOREAU,1987-02-26,manon.moreau21@webmail.fr,07.33.26.27.76,"38 rue François, Bordeaux",33000,2016-05-07 09:12:00,ACTIVE,44
+5197,Benoit LEGRAND,1972-03-22,benoit.legrand23@webmail.fr,07.73.88.52.37,"38 rue Muller, Nantes",44000,2024-06-11 08:35:00,TERMINATED,96
+5052,Julien FONTAINE,1952-02-11,julien.fontaine56@autre-mail.fr,06.39.44.98.83,"48 rue Henry, Bourg-en-Bresse",01000,2013-01-26 15:56:00,ACTIVE,15
+5398,Laura BONNET,1967-01-20,laura.bonnet17@mail.fr,06.85.05.04.87,"43 rue Roussel, Bourg-en-Bresse",01000,2024-09-27 09:44:00,ACTIVE,15
+5059,Yann DUPONT,1948-03-25,yann.dupont89@courriel.org,07.65.58.66.52,"93 rue Bertrand, Bordeaux",33000,2012-10-01 14:23:00,ACTIVE,92
+5194,Hélène SIMON,1945-09-12,helene.simon2@courriel.org,+33 6 61 73 44 79,"90 rue Robin, Strasbourg",67000,2013-01-13 08:05:00,ACTIVE,59
+5035,Olivier ROUSSEL,1963-10-10,olivier.roussel94@webmail.fr,06.79.12.86.85,"67 rue Legrand, Lille",59000,2016-10-04 12:18:00,ACTIVE,78
+5261,Julie DIALLO,1964-05-04,JULIE.DIALLO41@MAIL.FR,06.04.07.75.13,"55 rue Robert, Nice",06000,2012-12-24 12:15:00,ACTIVE,16
+5236,FOURNIER Hélène,2000-06-30,helene.fournier13@courriel.org,07.73.26.09.68,"53 rue Rousseau, Bourg-en-Bresse",01000,2025-04-04 12:53:00,ACTIVE,89
+5095,Jean GARCIA,1999-02-02,jean.garcia59@webmail.fr,06.77.17.03.05,"65 rue Martinez, Nantes",44000,2016-09-06 11:28:00,ACTIVE,33
+5461,Sophie BLANC,1985-09-04,sophie.blanc11@mail.fr,07.39.03.90.92,"117 rue Thomas, Bourg-en-Bresse",01000,2023-11-17 17:10:00,ACTIVE,21
+5487,Fatima THOMAS,1962-04-07,fatima.thomas68@mail.fr,06.79.51.18.12,"102 rue Touré, Lyon",69003,2013-08-01 15:16:00,ACTIVE,55
+5483,Benoît MORIN,1963-12-13,benoit.morin4@exemple.com,+33 7 18 92 00 45,"6 rue Garnier, Bourg-en-Bresse",01000,2021-07-10 13:53:00,ACTIVE,84
+5480,"FOURNIER, Sébastien",1998-09-13,sebastien.fournier70@mail.fr,+33 6 80 37 47 38,"13 rue Garcia, Nice",06000,2017-03-20 13:20:00,ACTIVE,64
+5382,"NICOLAS, François",1946-04-17,francois.nicolas74@mail.fr,07.29.41.25.97,"94 rue Gauthier, Nice",06000,2013-08-04 11:49:00,TERMINATED,39
+5446,Élodie BLANC,1947-12-29,elodie.blanc53@exemple.com,+33 7 83 68 16 72,"69 rue Lambert, Toulouse",31000,2012-01-25 13:47:00,ACTIVE,85
+5411,Maxime MATHIEU,1974-02-05,maxime.mathieu30@exemple.com,06.42.16.94.35,"90 rue Simon, Paris",75011,2021-12-12 16:48:00,TERMINATED,83
+5085,Hugo NICOLAS,1954-01-16,hugo.nicolas3@webmail.fr,+33 6 75 90 01 70,"59 rue Henry, Bordeaux",33000,2017-04-20 18:35:00,ACTIVE,74
+5464,Olivier MARTIN,1962-04-24,OLIVIER.MARTIN27@MAIL.FR,+33 6 15 69 64 01,"11 rue Fournier, Nice",06000,2018-03-13 10:48:00,ACTIVE,29
+5008,FOURNIER Benoît,1946-06-30,benoit.fournier48@autre-exemple.com,07.16.94.09.74,"93 rue Thomas, Lille",59000,2016-02-18 13:35:00,INACTIVE,8
+5354,Mathieu MORIN,1955-02-14,MATHIEU.MORIN23@COURRIEL.ORG,+33 6 86 14 98 42,"5 rue Legrand, Marseille",13006,2026-05-23 15:14:00,INACTIVE,21
+5376,LOPEZ Nicolas,1954-09-27,NICOLAS.LOPEZ73@COURRIEL.ORG,+33 7 49 02 94 84,"25 rue Clément, Bordeaux",33000,2025-01-24 09:44:00,ACTIVE,44
+5230,Nicolas SIMON,1958-11-16,nicolas.simon16@exemple.com,06.82.19.38.68,"62 rue Muller, Strasbourg",67000,2021-01-08 14:42:00,TERMINATED,4
+5476,DURAND Fatima,1960-09-08,FATIMA.DURAND89@EXEMPLE.COM,+33 7 14 13 42 77,"19 rue Lefebvre, Bordeaux",33000,2020-04-15 18:32:00,ACTIVE,79
+5031,Mohamed MOREL,1996-01-24,mohamed.morel17@mail.fr,+33 6 04 50 18 96,"52 rue Bertrand, Dijon",21000,2018-01-12 11:21:00,INACTIVE,2
+5088,Julien LOPEZ,1957-09-11,julien.lopez65@mail.fr,+33 7 69 11 22 32,"34 rue Morin, Lyon",69003,2017-12-03 18:40:00,ACTIVE,47
+5205,Mathieu NICOLAS,2000-01-19,mathieu.nicolas78@mail.fr,07.83.31.50.32,"77 rue Rousseau, Lille",59000,2012-10-28 14:41:00,ACTIVE,38
+5198,Antoine LAMBERT,1996-04-18,antoine.lambert75@courriel.org,06.96.66.02.86,"117 rue Fontaine, Lille",59000,2022-08-05 08:53:00,ACTIVE,75
+5124,DUBOIS Fatima,1993-08-25,fatima.dubois15@webmail.fr,+33 6 39 27 88 44,"82 rue Perrin, Dijon",21000,2018-10-17 10:00:00,ACTIVE,33
+5340,Sébastien LAURENT,1967-11-01,SEBASTIEN.LAURENT7@MAIL.FR,06.93.80.83.49,"23 rue Michel, Paris",75011,2020-08-14 10:23:00,ACTIVE,5
+5193,Marie DAVID,1992-05-05,marie.david81@exemple.com,+33 7 84 37 70 06,"104 rue Faure, Nice",06000,2022-09-04 13:54:00,ACTIVE,60
+5333,Sébastien ROBERT,1988-08-30,sebastien.robert20@exemple.com,06.98.21.09.35,"40 rue Clément, Toulouse",31000,2025-04-08 13:12:00,ACTIVE,69
+5101,"LOPEZ, Yann",1947-12-18,yann.lopez49@exemple.com,07.48.85.48.75,"14 rue Durand, Paris",75011,2020-03-10 13:51:00,ACTIVE,71
+5401,LAMBERT Hugo,1991-12-11,HUGO.LAMBERT9@WEBMAIL.FR,+33 7 52 48 13 53,"50 rue Roux, Lille",59000,2026-08-28 16:22:00,ACTIVE,76
+5003,Mohamed GIRARD,11/08/1949,MOHAMED.GIRARD33@EXEMPLE.COM,+33 7 11 67 19 02,"104 rue Henry, Marseille",13006,2016-05-12 14:58:00,ACTIVE,30
+5304,Francois MOREAU,1966-10-13,francois.moreau55@courriel.org,06.79.49.64.54,"92 rue Perrin, Bourg-en-Bresse",01000,2012-07-12 10:13:00,ACTIVE,26
+5223,TRAORÉ Thomas,2002-06-24,thomas.traore10@webmail.fr,07.08.78.34.37,"76 rue Robin, Nice",06000,2023-08-06 09:32:00,ACTIVE,1
+5367,Pierre CHEVALIER,1990-03-04,pierre.chevalier90@courriel.org,06.04.17.70.73,"90 rue François, Marseille",13006,2022-12-10 13:18:00,ACTIVE,91
+5356,Ines FONTAINE,1953-12-12,ines.fontaine6@courriel.org,+33 7 93 94 81 50,"105 rue Garcia, Bourg-en-Bresse",01000,2018-11-22 18:29:00,SUSPENDED,50
+5425,Yann ROUSSEL,1981-12-02,YANN.ROUSSEL96@WEBMAIL.FR,07.78.18.98.63,"96 rue Richard, Nice",06000,2013-12-16 17:17:00,ACTIVE,63
+5259,LEROY Élodie,1967-05-23,elodie.leroy42@courriel.org,+33 6 91 98 50 56,"81 rue Petit, Paris",75011,2016-08-04 10:54:00,ACTIVE,75
+5137,Kévin BERTRAND,2001-04-28,kevin.bertrand56@webmail.fr,+33 6 68 35 99 16,"56 rue Roux, Lyon",69003,2014-04-13 10:24:00,INACTIVE,30
+5375,MOREAU Helene,2000-11-08,helene.moreau38@exemple.com,+33 6 85 29 83 88,"117 rue Martin, Nice",06000,2019-10-08 10:32:00,SUSPENDED,21
+5327,Nicolas NICOLAS,1961-01-30,nicolas.nicolas60@exemple.com,06.21.50.13.43,"73 rue Thomas, Nice",06000,2025-07-10 17:55:00,ACTIVE,57
+5150,Nicolas LEGRAND,2001-10-29,NICOLAS.LEGRAND43@EXEMPLE.COM,07.03.38.78.85,"66 rue Mercier, Lyon",69003,2022-07-19 11:31:00,ACTIVE,78
+5231,Sarah GUÉRIN,1965-10-12,sarah.guerin13@mail.fr,+33 6 34 43 58 49,"15 rue Blanc, Nantes",44000,2017-01-21 14:16:00,ACTIVE,67
+5206,Claire BONNET,1953-05-26,claire.bonnet39@exemple.com,07.32.89.59.10,"68 rue Girard, Lille",59000,2021-04-19 11:38:00,ACTIVE,78
+5497,BERTRAND Thomas,1977-01-18,thomas.bertrand76@courriel.org,+33 7 11 20 33 90,"78 rue Dupont, Bordeaux",33000,2015-07-26 16:32:00,ACTIVE,31
+5109,Mathieu ROUX,2003-01-26,MATHIEU.ROUX3@COURRIEL.ORG,+33 7 24 79 60 00,"2 rue Nicolas, Strasbourg",67000,2021-04-02 17:14:00,ACTIVE,97
+5302,Sophie FRANCOIS,1979-09-05,SOPHIE.FRANCOIS73@EXEMPLE.COM,06.64.86.27.55,"64 rue Legrand, Paris",75011,2019-12-11 11:38:00,ACTIVE,11
+5358,Amélie GIRARD,1985-02-15,amelie.girard93@exemple.com,07.55.73.74.85,"43 rue Robert, Paris",75011,2015-12-05 17:17:00,ACTIVE,97
+5370,Yann HENRY,2001-04-18,YANN.HENRY78@WEBMAIL.FR,+33 7 31 96 30 52,"81 rue Thomas, Strasbourg",67000,2012-03-22 09:31:00,ACTIVE,13
+5029,Romain FAURE,1996-01-14,romain.faure87@mail.fr,+33 7 88 97 78 28,"51 rue Bertrand, Lyon",69003,2014-04-19 16:24:00,ACTIVE,78
+5251,Marie DUPONT,1956-02-13,marie.dupont20@courriel.org,06.72.76.53.14,"15 rue Dumont, Nice",06000,2021-10-04 10:07:00,ACTIVE,71
+5258,Jean THOMAS,1975-04-07,JEAN.THOMAS9@WEBMAIL.FR,06.67.64.49.43,"118 rue Garcia, Nantes",44000,2021-09-03 15:16:00,ACTIVE,12
+5352,Antoine BERTRAND,1962-08-21,antoine.bertrand10@webmail.fr,06.81.24.64.37,"22 rue Fournier, Nantes",44000,2018-12-10 17:06:00,INACTIVE,18
+5267,NICOLAS Romain,1961-12-22,romain.nicolas32@courriel.org,+33 6 79 36 47 08,"93 rue Fournier, Strasbourg",67000,2017-11-07 14:11:00,INACTIVE,60
+5142,François ROBIN,1993-11-15,FRANCOIS.ROBIN45@MAIL.FR,+33 6 20 72 01 97,"71 rue Vincent, Nice",06000,2014-01-18 18:45:00,ACTIVE,46
+5311,Thomas GUERIN,1970-11-04,thomas.guerin89@webmail.fr,06.04.38.45.04,"19 rue Petit, Lyon",69003,2021-05-29 17:32:00,ACTIVE,89
+5144,Fatima MASSON,1957-09-13,FATIMA.MASSON72@WEBMAIL.FR,+33 6 91 66 31 66,"108 rue Muller, Rennes",35000,2024-04-04 12:18:00,ACTIVE,42
+5136,Chloe ROBERT,1968-08-28,chloe.robert86@webmail.fr,07.81.77.36.55,"9 rue Nicolas, Paris",75011,2026-01-26 11:53:00,ACTIVE,24
+5368,Olivier LOPEZ,1963-01-20,olivier.lopez17@mail.fr,+33 7 78 51 50 66,"45 rue André, Bourg-en-Bresse",01000,2021-02-18 18:00:00,ACTIVE,47
+5083,Élodie LEGRAND,2000-08-02,elodie.legrand86@mail.fr,+33 7 23 28 55 58,"107 rue Masson, Toulouse",31000,2026-05-12 09:49:00,ACTIVE,21
+5373,Nicolas CLÉMENT,1995-06-09,NICOLAS.CLEMENT43@MAIL.FR,06.11.12.81.77,"104 rue Michel, Lyon",69003,2019-07-17 08:12:00,ACTIVE,87
+5371,Camille HENRY,1983-02-25,camille.henry32@exemple.com,+33 7 08 55 36 06,"23 rue Lefebvre, Strasbourg",67000,2013-06-15 08:51:00,ACTIVE,1
+5068,Kévin FOURNIER,1952-05-12,kevin.fournier80@mail.fr,06.06.16.69.10,"115 rue Robin, Bourg-en-Bresse",01000,2021-01-07 10:41:00,ACTIVE,79
+5372,MICHEL Pierre,1959-04-19,PIERRE.MICHEL61@WEBMAIL.FR,06.03.24.82.74,"27 rue Chevalier, Dijon",21000,2025-01-25 13:32:00,ACTIVE,52
+5048,Maxime DAVID,1966-10-23,maxime.david47@courriel.org,06.75.13.76.51,"72 rue Rousseau, Nantes",44000,2025-09-09 18:13:00,ACTIVE,37
+5169,Yann FONTAINE,1967-08-13,yann.fontaine88@courriel.org,+33 7 21 46 17 27,"69 rue Thomas, Strasbourg",67000,2018-07-29 12:21:00,ACTIVE,57
+5413,Alexandre MULLER,1998-07-14,alexandre.muller20@courriel.org,07.35.60.06.25,"9 rue Mercier, Bordeaux",33000,2017-12-28 12:51:00,INACTIVE,67
+5188,Antoine DAVID,1975-01-23,antoine.david77@courriel.org,+33 6 97 22 85 82,"71 rue Girard, Lille",59000,2024-07-30 11:35:00,ACTIVE,25
+5320,FRANCOIS Celine,1969-09-23,CELINE.FRANCOIS5@MAIL.FR,+33 6 67 24 66 39,"32 rue Simon, Bourg-en-Bresse",01000,2012-06-24 14:22:00,ACTIVE,68
+5256,"GIRARD, Alexandre",1981-03-10,alexandre.girard40@webmail.fr,06.39.40.26.90,"35 rue Masson, Bordeaux",33000,2017-12-21 14:35:00,ACTIVE,23
+5174,Laura LEGRAND,1960-01-14,laura.legrand27@webmail.fr,06.03.66.86.42,"119 rue Chevalier, Lyon",69003,2022-11-01 15:35:00,ACTIVE,34
+5391,Romain VINCENT,1963-11-14,romain.vincent39@exemple.com,+33 7 60 88 23 09,"109 rue Mercier, Bourg-en-Bresse",01000,2014-04-24 15:10:00,ACTIVE,19
+5403,Romain PETIT,2004-07-05,romain.petit26@mail.fr,+33 7 05 73 68 91,"67 rue Chevalier, Paris",75011,2022-03-07 09:43:00,ACTIVE,73
+5250,Pierre BERNARD,1950-07-29,pierre.bernard91@webmail.fr,+33 7 55 94 84 96,"115 rue Bertrand, Lille",59000,2022-02-06 14:28:00,ACTIVE,93
+5290,Mohamed MATHIEU,1962-03-10,mohamed.mathieu24@mail.fr,+33 6 49 99 70 32,"36 rue Lefebvre, Bourg-en-Bresse",01000,2013-06-21 08:40:00,ACTIVE,25
+5263,"DURAND, Alexandre",1945-09-10,alexandre.durand46@mail.fr,+33 7 87 06 90 57,"99 rue Robert, Paris",75011,2020-04-23 12:33:00,ACTIVE,74
+5094,Sebastien GARCIA,1971-09-28,sebastien.garcia25@courriel.org,06.06.57.35.17,"44 rue Bertrand, Strasbourg",67000,2026-03-28 17:45:00,ACTIVE,74
+5279,FRANÇOIS Hugo,1977-04-08,HUGO.FRANCOIS94@MAIL.FR,06.28.59.15.65,"57 rue Mathieu, Bordeaux",33000,2014-04-20 18:18:00,ACTIVE,74
+5073,Sophie MERCIER,1972-08-07,sophie.mercier57@mail.fr,+33 6 83 95 16 73,"105 rue Henry, Toulouse",31000,2015-09-28 13:49:00,ACTIVE,84
+5341,Antoine RICHARD,1955-01-09,antoine.richard13@webmail.fr,+33 7 79 54 28 32,"64 rue Gauthier, Toulouse",31000,2023-05-17 14:55:00,ACTIVE,21
+5234,Hugo BONNET,1989-10-21,hugo.bonnet80@webmail.fr,06.14.99.01.08,"13 rue Diallo, Nice",06000,2020-07-17 15:42:00,ACTIVE,57
+5229,Mathieu NICOLAS,1968-09-09,mathieu.nicolas72@exemple.com,+33 6 70 47 31 48,"103 rue Lambert, Nantes",44000,2012-01-31 18:28:00,ACTIVE,91
+5071,Camille MORIN,1997-06-07,camille.morin65@courriel.org,07.66.43.01.65,"56 rue Diallo, Strasbourg",67000,2013-03-05 14:41:00,ACTIVE,17
+5450,Lucas TRAORE,2002-09-03,LUCAS.TRAORE86@MAIL.FR,+33 6 44 96 63 90,"94 rue Dubois, Nice",06000,2021-10-24 08:36:00,ACTIVE,57
+5179,Élodie TOURÉ,1963-07-19,elodie.toure59@exemple.com,07.35.67.02.77,"66 rue Masson, Toulouse",31000,2020-04-01 08:57:00,ACTIVE,83
+5270,Julie ROUSSEL,1958-05-25,JULIE.ROUSSEL5@EXEMPLE.COM,07.13.56.39.74,"46 rue Dubois, Marseille",13006,2017-11-17 16:28:00,TERMINATED,36
+5096,Julie ROBIN,1985-09-09,julie.robin98@courriel.org,07.77.60.06.43,"42 rue Mathieu, Strasbourg",67000,2023-03-18 12:55:00,ACTIVE,99
+5257,Sophie GARCIA,1963-08-23,sophie.garcia30@webmail.fr,07.84.06.13.86,"118 rue Fournier, Lille",59000,2020-05-04 15:32:00,ACTIVE,86
+5170,Maxime ROBERT,1969-11-28,maxime.robert1@webmail.fr,06.92.93.60.59,"24 rue Dumont, Toulouse",31000,2022-09-25 17:15:00,ACTIVE,100
+5200,Sarah DIALLO,1980-06-08,sarah.diallo41@exemple.com,+33 7 26 76 54 19,"65 rue Petit, Nantes",44000,2025-09-18 11:03:00,ACTIVE,95
+5020,Céline ROBIN,1954-04-29,celine.robin34@exemple.com,06.16.43.34.72,"68 rue Simon, Lyon",69003,2014-01-14 09:42:00,ACTIVE,54
+5055,Lucas DURAND,1986-09-01,lucas.durand54@courriel.org,+33 7 29 04 77 42,"85 rue Guérin, Lille",59000,2017-05-15 12:53:00,ACTIVE,42
+5032,DURAND Mathieu,1965-02-08,mathieu.durand63@mail.fr,07.55.08.42.89,"91 rue Thomas, Strasbourg",67000,2023-09-24 17:23:00,ACTIVE,61
+5388,Nicolas LAMBERT,1993-01-13,nicolas.lambert70@webmail.fr,06.32.42.71.61,"99 rue Simon, Toulouse",31000,2016-02-27 14:33:00,ACTIVE,24
+5240,Aïcha ROUX,1983-04-25,AICHA.ROUX35@WEBMAIL.FR,07.60.33.27.39,"34 rue Durand, Bourg-en-Bresse",01000,2019-05-10 09:25:00,ACTIVE,66
+5426,Claire HENRY,1957-05-08,claire.henry52@webmail.fr,+33 6 89 65 49 97,"73 rue Richard, Bordeaux",33000,2016-02-01 13:05:00,ACTIVE,41
+5441,Benoît ROBERT,1965-02-08,benoit.robert36@exemple.com,+33 7 24 62 71 23,"32 rue Thomas, Rennes",35000,2014-09-10 17:25:00,SUSPENDED,67
+5040,Hugo GARNIER,1954-04-01,hugo.garnier90@courriel.org,+33 6 39 23 12 60,"25 rue Moreau, Dijon",21000,2018-07-24 12:36:00,INACTIVE,87
+5419,Kévin PETIT,2005-01-24,kevin.petit73@mail.fr,07.57.45.86.18,"89 rue Morel, Toulouse",31000,2025-03-22 10:00:00,ACTIVE,49
+5338,MOREAU Elodie,1951-07-27,elodie.moreau25@mail.fr,+33 6 63 14 09 82,"22 rue Faure, Toulouse",31000,2022-03-28 15:40:00,ACTIVE,73
+5005,Fatima MARTINEZ,15/02/1982,fatima.martinez44@exemple.com,07.66.15.65.45,"88 rue Garnier, Toulouse",31000,2020-05-01 16:49:00,ACTIVE,28
+5120,François CLÉMENT,1977-10-14,FRANCOIS.CLEMENT52@EXEMPLE.COM,06.43.18.07.39,"3 rue Fontaine, Rennes",35000,2022-10-15 09:37:00,ACTIVE,53
+7000,SARAH DIALLO,1980-06-08,sarah.diallo41@exemple.com,,"65 rue Petit, Nantes",44000,2025-09-18 11:03:00,ACTIVE,95
+5159,Léa LEGRAND,1973-04-24,lea.legrand37@webmail.fr,07.78.87.28.20,"25 rue Moreau, Paris",75011,2023-01-05 14:00:00,INACTIVE,53
+5408,Anaïs MARTIN,1954-08-02,anais.martin61@mail.fr,07.30.40.25.60,"38 rue Durand, Bourg-en-Bresse",01000,2014-04-20 15:27:00,ACTIVE,41
+5038,"DIALLO, Fatima",1965-01-21,fatima.diallo34@courriel.org,+33 6 41 11 59 31,"17 rue Morel, Toulouse",31000,2023-09-29 12:50:00,TERMINATED,91
+5099,Kévin TRAORÉ,1987-09-27,KEVIN.TRAORE5@WEBMAIL.FR,07.77.79.57.03,"19 rue Dupont, Strasbourg",67000,2012-09-23 14:34:00,TERMINATED,83
+5479,Yann THOMAS,1996-08-19,YANN.THOMAS39@WEBMAIL.FR,+33 6 91 37 08 58,"67 rue Michel, Dijon",21000,2020-05-08 09:39:00,ACTIVE,57
+5489,Sébastien GARCIA,1990-08-15,sebastien.garcia9@webmail.fr,06.37.24.47.92,"96 rue Lopez, Marseille",13006,2017-04-06 17:09:00,ACTIVE,37
+5249,Élodie ANDRÉ,1998-12-13,ELODIE.ANDRE90@EXEMPLE.COM,+33 6 55 88 10 82,"58 rue Martinez, Nantes",44000,2025-02-28 11:30:00,ACTIVE,78
+5186,Aïcha MOREAU,1951-10-02,aicha.moreau49@mail.fr,06.16.03.78.11,"41 rue Masson, Toulouse",31000,2020-11-25 14:43:00,ACTIVE,91
+5227,Romain FOURNIER,1986-05-23,romain.fournier40@courriel.org,+33 7 33 19 97 11,"30 rue Garcia, Nantes",44000,2025-06-14 17:31:00,ACTIVE,91
+5130,Lucas LEGRAND,2003-04-14,lucas.legrand32@webmail.fr,07.10.07.70.17,"98 rue Garcia, Paris",75011,2012-10-26 12:39:00,ACTIVE,11
+5025,Claire LAURENT,1947-12-21,claire.laurent44@exemple.com,06.29.27.66.37,"27 rue Henry, Strasbourg",67000,2021-06-30 17:11:00,ACTIVE,72
+5060,Olivier MOREAU,1985-13-45,olivier.moreau93@exemple.com,07.53.85.65.35,"117 rue Lefebvre, Toulouse",31000,2020-02-10 14:04:00,ACTIVE,88
+5002,Celine LEGRAND,04/01/1995,celine.legrand32@webmail.fr,06.72.78.89.57,"107 rue Muller, Paris",75011,2023-03-16 09:27:00,TERMINATED,44
+5415,Pierre MASSON,1998-12-05,pierre.masson85@mail.fr,07.37.48.12.68,"63 rue Robin, Strasbourg",67000,2018-01-02 08:12:00,ACTIVE,91
+5218,Julie LAMBERT,1954-04-06,julie.lambert89@mail.fr,06.44.60.81.97,"33 rue Dubois, Nice",06000,2023-04-01 08:26:00,INACTIVE,88
+5417,François HENRY,1962-01-22,francois.henry51@courriel.org,06.07.49.88.49,"77 rue Robert, Strasbourg",67000,2021-05-30 14:22:00,ACTIVE,65
+5422,Fatima LEGRAND,2002-03-01,fatima.legrand7@mail.fr,07.67.47.72.01,"85 rue Thomas, Rennes",35000,2019-10-03 18:14:00,ACTIVE,95
+5421,"BERNARD, Olivier",1985-10-06,OLIVIER.BERNARD64@WEBMAIL.FR,06.06.29.45.02,"85 rue Robin, Lyon",69003,2014-10-10 16:27:00,INACTIVE,95
+5337,Thomas GUERIN,1993-11-05,thomas.guerin4@exemple.com,+33 6 69 34 76 91,"83 rue Traoré, Toulouse",31000,2012-02-18 18:09:00,ACTIVE,12
+5145,Laura BERNARD,1974-07-15,laura.bernard94@mail.fr,06.76.42.96.28,"76 rue Leroy, Lyon",69003,2019-06-07 13:10:00,ACTIVE,89
+5047,Jean FONTAINE,1950-02-07,JEAN.FONTAINE10@EXEMPLE.COM,06.27.24.05.59,"38 rue Leroy, Toulouse",31000,2013-11-23 08:49:00,ACTIVE,97
+5104,Jean RICHARD,1988-11-17,jean.richard47@exemple.com,+33 7 54 16 48 79,"85 rue Dumont, Dijon",21000,2013-02-20 11:55:00,ACTIVE,7
+5374,Claire PERRIN,1960-07-10,claire.perrin86@exemple.com,+33 7 03 75 35 31,"20 rue Lopez, Paris",75011,2013-07-03 10:44:00,INACTIVE,50
+5224,"DIALLO, Pierre",1995-11-09,PIERRE.DIALLO50@EXEMPLE.COM,06.42.65.78.96,"87 rue Girard, Bourg-en-Bresse",01000,2015-05-06 13:19:00,ACTIVE,23
+5282,François LAMBERT,1960-04-29,francois.lambert31@exemple.com,+33 7 28 40 22 46,"51 rue Garnier, Strasbourg",67000,2015-01-07 17:58:00,ACTIVE,83
+5143,Camille DUBOIS,1955-04-21,camille.dubois80@mail.fr,+33 7 84 22 62 30,"27 rue Bonnet, Strasbourg",67000,2022-03-31 13:51:00,ACTIVE,14
+5402,LEGRAND Laura,1971-01-16,LAURA.LEGRAND91@COURRIEL.ORG,+33 6 11 49 97 47,"35 rue Fontaine, Toulouse",31000,2019-07-18 17:30:00,TERMINATED,29
+5360,Lucas LOPEZ,2005-08-15,lucas.lopez78@courriel.org,+33 7 63 52 94 61,"17 rue Fontaine, Toulouse",31000,2023-02-15 11:28:00,ACTIVE,22
+5328,Julie DUMONT,1954-11-02,julie.dumont19@courriel.org,+33 7 59 39 55 71,"103 rue Laurent, Rennes",35000,2017-12-27 12:16:00,ACTIVE,20
+5488,Sarah GARNIER,2004-04-30,sarah.garnier50@webmail.fr,06.10.32.31.97,"61 rue Thomas, Lille",59000,2016-01-14 12:43:00,ACTIVE,85
+5046,Sébastien LEFEBVRE,1988-02-08,sebastien.lefebvre38@autre-webmail.fr,+33 7 19 75 46 61,"54 rue Touré, Lille",59000,2017-06-25 14:55:00,ACTIVE,6
+5495,Benoit ROBERT,1955-01-09,BENOIT.ROBERT50@EXEMPLE.COM,+33 6 69 50 72 59,"45 rue Dubois, Rennes",35000,2013-06-02 11:13:00,ACTIVE,95
+5397,Antoine MERCIER,1960-02-09,antoine.mercier63@courriel.org,+33 7 96 23 83 84,"7 rue Robin, Paris",75011,2021-03-19 18:16:00,INACTIVE,36
+5216,Jean DUPONT,1954-07-13,jean.dupont9@mail.fr,06.62.03.06.95,"55 rue Morel, Bordeaux",33000,2025-10-13 17:59:00,ACTIVE,7
