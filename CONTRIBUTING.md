@@ -1,7 +1,7 @@
 # Contribuer au projet
 
 Ce document définit la convention de nommage des branches et les règles de travail.
-Il s'appuie sur les bonnes pratiques Git et GitHub vues en formation.
+Il s'appuie sur les bonnes pratiques Git et GitHub.
 
 ## Branches principales
 | Branche | Rôle | Règle |
@@ -16,8 +16,6 @@ Il s'appuie sur les bonnes pratiques Git et GitHub vues en formation.
 | `bugfix/` | `develop` | `develop` | correction d'un bug non urgent | `bugfix/birth-date-format` |
 | `release/` | `develop` | `main`, puis `develop` | préparation d'une version | `release/1.0.0` |
 | `hotfix/` | `main` | `main` et `develop` | correction rapide d'un bug critique | `hotfix/total-clients-count` |
-
-`bugfix/` est un ajout de l'équipe pour les bugs non urgents. Les autres types viennent du cours.
 
 ## Règles de nommage
 - Format : `type/description-courte`.
