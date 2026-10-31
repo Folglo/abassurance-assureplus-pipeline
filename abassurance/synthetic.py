@@ -522,4 +522,3 @@ def write_csv(output_dir=DATA_DIR, **options):
 if __name__ == "__main__":
     for table_name, count in write_csv().items():
         print(f"{table_name}: {count} lignes")
-

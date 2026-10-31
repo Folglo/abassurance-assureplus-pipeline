@@ -466,4 +466,3 @@ def drop_orphans(frame, parent_keys, column, table, log):
     reasons = pd.Series(["orphan_parent_missing" if o else None for o in orphan], index=frame.index)
     log.record(table, "all", column, frame[column], frame[column], reasons)
     return frame[~orphan].reset_index(drop=True)
-
