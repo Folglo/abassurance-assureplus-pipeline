@@ -467,3 +467,4 @@ def drop_orphans(frame, parent_keys, column, table, log):
     
     log.record(table, "all", column, frame[column], frame[column], reasons)
     return frame[~orphan].reset_index(drop=True)
+    
