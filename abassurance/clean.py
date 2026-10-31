@@ -157,4 +157,3 @@ def map_values(series, mapping):
     reasons[missing] = "missing"
     reasons[unmapped] = "unmapped_value"
     return mapped.fillna("unknown"), reasons
-
