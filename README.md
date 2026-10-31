@@ -82,5 +82,5 @@ tableau de bord en sortie.
 
 ## Schéma de données et contributions
 
-- Schéma conceptuel (MCD) : `docs/schema-mcd.png`
+- Schéma conceptuel (MCD) : `docs/schema-mcd.drawio.png`
 - Branches, commits et pull requests : voir [CONTRIBUTING.md](CONTRIBUTING.md)
