@@ -54,9 +54,21 @@ class TestAuth(unittest.TestCase):
         for account in auth.USERS.values():
             self.assertNotIn("AbAssurance", account["password_hash"])
 
+    def test_hashes_use_bcrypt(self):
+        for account in auth.USERS.values():
+            self.assertTrue(account["password_hash"].startswith("$2b$"))
+
+    def test_same_password_gives_different_hashes(self):
+        # Le sel est aléatoire : deux empreintes du même mot de passe sont différentes
+        self.assertNotEqual(auth.hash_password("pw"), auth.hash_password("pw"))
+
+    def test_too_long_password_is_refused(self):
+        self.assertIsNone(auth.authenticate("admin", "a" * 100))
+
     def test_custom_users_table(self):
         users = {"x": {"role": "viewer", "password_hash": auth.hash_password("pw")}}
         self.assertEqual(auth.authenticate("x", "pw", users), "viewer")
+        self.assertIsNone(auth.authenticate("x", "autre", users))
 
 
 if __name__ == "__main__":
