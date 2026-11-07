@@ -1,25 +1,25 @@
-"""Authentification de démonstration : deux profils, mots de passe stockés en empreinte."""
+"""Authentification de démonstration : deux profils, mots de passe stockés en empreinte bcrypt."""
 
-import hashlib
-import hmac
+import bcrypt
 
-SALT = "abassurance-demo"
+# bcrypt refuse les mots de passe de plus de 72 octets.
+MAX_PASSWORD_BYTES = 72
 
 USERS = {
     "admin": {
         "role": "admin",
-        "password_hash": "5ccaaaba040278e2f83d7b4c0473d9fef84019d2d4d8d6277cd026891bce0b11",
+        "password_hash": "$2b$12$QvOGkER.bCdLgBkz7P6mvOxkD29w5zYQV7MkInwzhunx91QWOQil6",
     },
     "user": {
         "role": "user",
-        "password_hash": "a5a6560892835b096d66f916f0b09d62e7edfcdf128d742d58f6fee3f0a05ed3",
+        "password_hash": "$2b$12$PQLKlKRn1EiwTN3p3YPcj.MGIiVEBNlUU48Dkkjne36B7VSNkYu1q",
     },
 }
 
 
 def hash_password(password):
-    """Empreinte SHA-256 salée du mot de passe."""
-    return hashlib.sha256(f"{SALT}:{password}".encode()).hexdigest()
+    """Empreinte bcrypt du mot de passe, avec un sel aléatoire propre à chaque empreinte."""
+    return bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
 
 
 def authenticate(username, password, users=None):
@@ -28,6 +28,9 @@ def authenticate(username, password, users=None):
     account = users.get(username)
     if account is None:
         return None
-    if hmac.compare_digest(hash_password(password), account["password_hash"]):
+    encoded = password.encode()
+    if len(encoded) > MAX_PASSWORD_BYTES:
+        return None
+    if bcrypt.checkpw(encoded, account["password_hash"].encode()):
         return account["role"]
     return None
