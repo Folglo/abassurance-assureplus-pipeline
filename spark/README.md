@@ -34,6 +34,16 @@ resume = quality_summary(nettoye)
 resume.filter("reason != 'ok'").orderBy("table", "column", "reason").show(100, truncate=False)
 ```
 
+4. Enregistrer les tables nettoyées dans le catalogue :
+
+```python
+save_all(nettoye)
+```
+
+## Données enregistrées
+
+Chaque table nettoyée est enregistrée dans le schéma `workspace.default` du catalogue Unity, sous le nom `silver_` suivi du nom du fichier, par exemple `silver_ap_users`. Elle contient les identifiants, les valeurs nettoyées et le motif de rejet de chaque valeur. La table `silver_quality_log` donne le nombre de lignes par table, colonne et motif. Les fichiers CSV du volume constituent le niveau Bronze.
+
 ## Résultat
 
 | Table | Lignes lues |
