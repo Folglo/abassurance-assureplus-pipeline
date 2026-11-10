@@ -34,8 +34,13 @@ CSV Oracle + CSV SQL Server -> nettoyage -> mapping -> contrôles d'intégrité 
 | `abassurance/duplicates.py` | détection des doublons et matrice de doublons |
 | `abassurance/stats.py` | indicateurs du tableau de bord |
 | `abassurance/privacy.py` | masquage et pseudonymisation (RGPD) |
-| `abassurance/auth.py` | connexion `admin` / `user` |
+| `abassurance/auth.py` | connexion `admin` / `user`, mots de passe stockés sous forme d'empreintes bcrypt |
+| `spark/clean_spark.py` | démonstration PySpark du nettoyage, exécutée sur Databricks |
 | `streamlit_app.py` | tableau de bord |
+
+## Démonstration PySpark
+
+Le nettoyage des huit tables est également réalisé avec PySpark, exécuté sur Databricks Free Edition. Les tables nettoyées sont enregistrées dans le catalogue Databricks. Le code et la procédure sont décrits dans [spark/README.md](spark/README.md).
 
 ## Installation et lancement
 
@@ -58,7 +63,7 @@ ruff format --check .
 La chaîne d'intégration continue (`.github/workflows/ci.yml`) lance Ruff, les tests et la
 couverture (minimum 80 %) à chaque push et à chaque pull request.
 
-Le script `python scripts/demo_silent_bug.py` illustre un bug évité : une date mal formatée
+Le script `python -m scripts.demo_silent_bug` illustre un bug évité : une date mal formatée
 devenait `NaT` sans alerte. Elle est maintenant rejetée avec un motif.
 
 ## Règles de gestion retenues (à valider avec le client)
@@ -76,9 +81,7 @@ devenait `NaT` sans alerte. Elle est maintenant rejetée avec un motif.
 
 ## Architecture cible
 
-Ce dépôt est la preuve de concept en Python. En production, les mêmes règles seraient portées par
-des outils dédiés : Talend (ETL), Kafka (flux), Spark (traitement) et Hadoop (stockage), avec le
-tableau de bord en sortie.
+Ce dépôt est la preuve de concept en Python, avec une démonstration du nettoyage en PySpark sur Databricks. En production, les mêmes règles seraient portées par des outils dédiés : Talend (ETL), Kafka (flux), Spark (traitement) et Hadoop (stockage), avec le tableau de bord en sortie.
 
 ## Schéma de données et contributions
 
