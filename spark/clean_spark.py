@@ -283,3 +283,12 @@ def quality_summary(cleaned):
     """Tableau unique : table, colonne, motif, nombre de lignes, pour toutes les tables."""
     frames = [_reasons_of(df, table) for table, df in cleaned.items()]
     return reduce(DataFrame.unionByName, frames)
+
+
+def save_all(cleaned, schema="workspace.default"):
+    """Enregistre les tables nettoyées et le journal des rejets dans le catalogue (Silver)."""
+    for table, df in cleaned.items():
+        sources = [column for column, _, _ in TABLES[table].values()]
+        df.drop(*sources).write.mode("overwrite").saveAsTable(f"{schema}.silver_{table}")
+    summary = quality_summary(cleaned)
+    summary.write.mode("overwrite").saveAsTable(f"{schema}.silver_quality_log")
