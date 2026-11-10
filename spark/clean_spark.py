@@ -292,4 +292,3 @@ def save_all(cleaned, schema="workspace.default"):
         df.drop(*sources).write.mode("overwrite").saveAsTable(f"{schema}.silver_{table}")
     summary = quality_summary(cleaned)
     summary.write.mode("overwrite").saveAsTable(f"{schema}.silver_quality_log")
-    
